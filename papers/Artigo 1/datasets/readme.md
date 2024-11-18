@@ -18,9 +18,6 @@ Este notebook é uma parte essencial do pipeline de experimentação e oferece s
 ### **`Análise_Estatística.ipynb`**  
 Notebook focado em análises estatísticas avançadas, como testes de associação (Qui-Quadrado e Fisher), correlação entre variáveis e regressão logística para prever fatores relacionados à metástase.
 
-### **`Base_de_dados_sintetica.ipynb`**  
-Notebook que apresenta o processo de criação e manipulação de uma base de dados sintética para experimentação e validação de técnicas, baseada na estrutura original.
-
 # **Arquivos de Dados:**
 - ## **`export.csv`**: 
   ## Descrição da Base de Dados

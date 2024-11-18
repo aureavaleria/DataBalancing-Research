@@ -13,9 +13,9 @@ Notebook focado em análises estatísticas avançadas, como testes de associaç�
 ### **`Base_de_dados_sintetica.ipynb`**  
 Notebook que apresenta o processo de criação e manipulação de uma base de dados sintética para experimentação e validação de técnicas, baseada na estrutura original.
 
-### **Arquivos de Dados:**
-- **`export.csv`**: Base de dados original extraída da SEER, contendo variáveis clínicas e demográficas relevantes.
-  # Descrição da Base de Dados
+# **Arquivos de Dados:**
+- ##**`export.csv`**: 
+  ## Descrição da Base de Dados
 
 A base de dados utilizada neste repositório foi gerada com base no artigo científico **"Machine learning for predicting liver and/or lung metastasis in colorectal cancer: A retrospective study based on the SEER database"**, que fornece uma estrutura metodológica robusta para a seleção e filtragem de variáveis relevantes. Esse artigo serviu como referência para definir as variáveis incluídas, os filtros aplicados e os critérios de exclusão utilizados no processamento dos dados.
 
@@ -23,7 +23,7 @@ Abaixo, apresentamos duas tabelas que descrevem as variáveis selecionadas e os 
 
 ---
 
-## Tabela 1: Correspondência de Variáveis e Filtros Aplicados no Dataset SEER
+### Tabela 1: Correspondência de Variáveis e Filtros Aplicados no Dataset SEER
 
 Esta tabela lista as variáveis usadas nos experimentos e sua correspondência no dataset SEER, além de filtros aplicados para garantir a consistência e relevância dos dados analisados.
 
@@ -50,7 +50,7 @@ Esta tabela lista as variáveis usadas nos experimentos e sua correspondência n
 
 ---
 
-## Tabela 2: Descrição Detalhada das Variáveis Utilizadas no Estudo
+### Tabela 2: Descrição Detalhada das Variáveis Utilizadas no Estudo
 
 Esta tabela apresenta uma descrição mais aprofundada das variáveis analisadas, incluindo seus significados e fontes, para contextualizar o uso dessas informações nos experimentos e modelagens realizados.
 

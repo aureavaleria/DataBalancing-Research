@@ -14,7 +14,7 @@ Notebook focado em análises estatísticas avançadas, como testes de associaç�
 Notebook que apresenta o processo de criação e manipulação de uma base de dados sintética para experimentação e validação de técnicas, baseada na estrutura original.
 
 # **Arquivos de Dados:**
-- ##**`export.csv`**: 
+- ## **`export.csv`**: 
   ## Descrição da Base de Dados
 
 A base de dados utilizada neste repositório foi gerada com base no artigo científico **"Machine learning for predicting liver and/or lung metastasis in colorectal cancer: A retrospective study based on the SEER database"**, que fornece uma estrutura metodológica robusta para a seleção e filtragem de variáveis relevantes. Esse artigo serviu como referência para definir as variáveis incluídas, os filtros aplicados e os critérios de exclusão utilizados no processamento dos dados.

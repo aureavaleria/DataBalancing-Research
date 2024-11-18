@@ -17,9 +17,9 @@ Notebook que apresenta o processo de criação e manipulação de uma base de da
 - **`export.csv`**: Base de dados original extraída da SEER, contendo variáveis clínicas e demográficas relevantes.
   # Descrição da Base de Dados
 
-O repositório **DataBalancing-Research** utiliza diferentes bases de dados para explorar e implementar técnicas de balanceamento de dados, com foco principal em contextos médicos. Entre as bases de dados utilizadas, destacamos o **SEER** (Surveillance, Epidemiology, and End Results Program), amplamente reconhecido por fornecer informações detalhadas sobre o diagnóstico, tratamento e prognóstico de pacientes com câncer.
+A base de dados utilizada neste repositório foi gerada com base no artigo científico **"Machine learning for predicting liver and/or lung metastasis in colorectal cancer: A retrospective study based on the SEER database"**, que fornece uma estrutura metodológica robusta para a seleção e filtragem de variáveis relevantes. Esse artigo serviu como referência para definir as variáveis incluídas, os filtros aplicados e os critérios de exclusão utilizados no processamento dos dados.
 
-Abaixo, apresentamos duas tabelas que descrevem as variáveis selecionadas e os filtros aplicados na base de dados SEER, bem como os significados detalhados de cada atributo, para auxiliar na compreensão e replicação dos experimentos.
+Abaixo, apresentamos duas tabelas que descrevem as variáveis selecionadas e os filtros aplicados na base SEER, bem como os significados detalhados de cada atributo. Estas tabelas foram organizadas para auxiliar na compreensão e replicação dos experimentos e garantir a rastreabilidade dos processos utilizados.
 
 ---
 

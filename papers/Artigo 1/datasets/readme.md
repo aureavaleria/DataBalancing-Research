@@ -69,7 +69,10 @@ Esta tabela apresenta uma descrição mais aprofundada das variáveis analisadas
 
 
  
-- **`bdsintetico.csv`**: Base de dados sintética gerada para testes de técnicas experimentais.
+## **`Base_de_dados_sintetica.ipynb`**
+Este arquivo Jupyter Notebook, **`Base_de_dados_sintetica.ipynb`**, foi desenvolvido para gerar a base de dados sintética utilizada nos experimentos descritos neste repositório. 
+O notebook contém todo o passo a passo necessário para criar a base sintética
+## **`bdsintetico.csv`**
 A base de dados sintética utilizada neste repositório foi desenvolvida a partir dos percentuais descritos na tabela retirada **integralmente** do artigo **"Machine learning for predicting liver and/or lung metastasis in colorectal cancer: A retrospective study based on the SEER database"**. Esta tabela apresenta as características clínicas e patológicas dos pacientes da base SEER e foi essencial para guiar a construção da base sintética, permitindo a reprodução fiel das distribuições originais dos dados.
 
 A base sintética foi criada replicando as distribuições percentuais das variáveis presentes na tabela, como idade, gênero, raça, estágio do tumor (T/N), tamanho do tumor, e outros atributos clínicos relevantes. O objetivo é garantir que a base de dados seja suficientemente representativa para validar os experimentos descritos no artigo, sem a necessidade de acesso direto à base de dados descrita no artigo, respeitando restrições de uso e privacidade.

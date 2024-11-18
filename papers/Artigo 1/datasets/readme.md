@@ -5,7 +5,15 @@ Este repositório contém notebooks e arquivos relacionados à análise explorat
 ## Conteúdo do Repositório
 
 ### **`Análise_Exploratória_de_Dados.ipynb`**  
-Notebook dedicado à análise exploratória inicial da base de dados, incluindo gráficos descritivos para variáveis categóricas e contínuas. 
+
+Este notebook realiza a análise exploratória de um conjunto de dados relacionado a pacientes com câncer colorretal. Utilizando informações clínicas, demográficas e tumorais para gerar gráficos e compreender a distribuição das variáveis.
+
+O processo envolve a importação do dataset, a análise das principais variáveis de interesse e a geração de visualizações que destacam padrões relevantes nos dados. Estas etapas são fundamentais para validar os experimentos reproduzidos e garantir que as distribuições dos dados estejam alinhadas com os resultados esperados. 
+
+As variáveis analisadas incluem características como idade, gênero, localização do tumor, tamanho do tumor, e presença de metástases no pulmão e no fígado. O objetivo final é fornecer uma visão clara e detalhada do dataset, servindo como base para os experimentos de aprendizado de máquina descritos no artigo.
+
+Este notebook é uma parte essencial do pipeline de experimentação e oferece suporte à replicação dos métodos descritos no estudo.
+
 
 ### **`Análise_Estatística.ipynb`**  
 Notebook focado em análises estatísticas avançadas, como testes de associação (Qui-Quadrado e Fisher), correlação entre variáveis e regressão logística para prever fatores relacionados à metástase.

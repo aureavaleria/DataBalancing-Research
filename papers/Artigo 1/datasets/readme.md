@@ -71,5 +71,78 @@ Esta tabela apresenta uma descrição mais aprofundada das variáveis analisadas
  
 - **`bdsintetico.csv`**: Base de dados sintética gerada para testes de técnicas experimentais.
 
+- ## Tabela 1: Características Clínicas e Patológicas da Base de Dados SEER e do Conjunto de Validação Externa
+
+| **Categoria**          | **Validação Externa (N = 196)** | **Base de Dados SEER (N = 51265)** | **P-Valor** |
+|-------------------------|---------------------------------|------------------------------------|-------------|
+| **Idade (anos)**        |                                 |                                    | 0.164       |
+| <60                    | 51 (26.0%)                     | 15692 (30.6%)                     |             |
+| ≥60                    | 145 (74.0%)                    | 35573 (69.4%)                     |             |
+| **Gênero**              |                                 |                                    | 0.500       |
+| Feminino               | 88 (44.9%)                     | 24253 (47.3%)                     |             |
+| Masculino              | 108 (55.1%)                    | 27012 (52.7%)                     |             |
+| **Raça**                |                                 |                                    | <0.001      |
+| Branco                 | 196 (100.0%)                   | 39011 (77.6%)                     |             |
+| Negro                  | 0 (0.0%)                       | 4601 (9.0%)                       |             |
+| Outro                  | 0 (0.0%)                       | 6763 (13.2%)                      |             |
+| **Hispânico**           |                                 |                                    | <0.001      |
+| Não                   | 0 (0.0%)                       | 47081 (91.8%)                     |             |
+| Sim                   | 196 (100.0%)                   | 4184 (8.2%)                       |             |
+| **Estado Civil**        |                                 |                                    | <0.001      |
+| Casado                | 196 (100.0%)                   | 21448 (41.9%)                     |             |
+| Solteiro              | 0 (0.0%)                       | 27257 (53.9%)                     |             |
+| Desconhecido          | 0 (0.0%)                       | 2560 (5.1%)                       |             |
+| **Tipo Histológico**    |                                 |                                    | <0.001      |
+| Adenocarcinoma        | 163 (83.2%)                    | 47077 (91.9%)                     |             |
+| Adenocarcinoma mucinoso | 28 (14.3%)                    | 3570 (7.0%)                       |             |
+| Células em anel de sinete | 5 (2.5%)                    | 618 (1.2%)                        |             |
+| **Grau**                |                                 |                                    | <0.001      |
+| Grau I                | 26 (13.3%)                     | 3818 (7.5%)                       |             |
+| Grau II               | 142 (72.5%)                    | 33642 (65.6%)                     |             |
+| Grau III              | 24 (12.2%)                     | 7297 (14.2%)                      |             |
+| Grau IV               | 1 (0.5%)                       | 424 (0.8%)                        |             |
+| Desconhecido          | 3 (1.5%)                       | 5084 (9.9%)                       |             |
+| **Localização do Tumor** |                                 |                                    | 0.424       |
+| Ceco                  | 24 (12.2%)                     | 8338 (16.3%)                      |             |
+| Apêndice              | 9 (5.0%)                       | 833 (1.6%)                        |             |
+| Cólon ascendente      | 17 (8.7%)                      | 10765 (21.0%)                     |             |
+| Flexura hepática do cólon | 4 (2.0%)                   | 2464 (4.8%)                       |             |
+| Cólon transverso      | 8 (4.1%)                       | 4291 (8.4%)                       |             |
+| Flexura esplênica do cólon | 4 (2.0%)                  | 1734 (3.4%)                       |             |
+| Cólon descendente     | 22 (11.2%)                     | 7337 (14.3%)                      |             |
+| Sigmoide              | 84 (42.9%)                     | 10225 (20.0%)                     |             |
+| Lesão sobreposta do cólon | 0 (0.0%)                   | 108 (0.2%)                        |             |
+| Cólon, não especificado | 9 (4.6%)                     | 695 (1.4%)                        |             |
+| **Junção Retossigmoide** | 3 (1.5%)                     | 3879 (7.6%)                       |             |
+| **Reto, não especificado** | 48 (24.5%)               | 10526 (20.5%)                     |             |
+| **Estágio T (T stage)** |                                 |                                    | <0.001      |
+| T1                    | 6 (3.1%)                       | 6246 (12.5%)                      |             |
+| T2                    | 17 (8.7%)                      | 9612 (19.9%)                      |             |
+| T3                    | 129 (65.8%)                    | 24694 (51.6%)                     |             |
+| T4                    | 44 (22.4%)                     | 8151 (15.9%)                      |             |
+| Desconhecido (TX)     | 0 (0.0%)                       | 3561 (7.0%)                       |             |
+| **Estágio N (N stage)** |                                 |                                    | 0.849       |
+| N0                    | 112 (57.1%)                    | 29691 (57.9%)                     |             |
+| N1                    | 56 (28.6%)                     | 15193 (29.7%)                     |             |
+| N2                    | 28 (14.3%)                     | 6733 (13.4%)                      |             |
+| Desconhecido (NX)     | 0 (0.0%)                       | 1710 (3.4%)                       |             |
+| **Tamanho do Tumor**   |                                 |                                    | 0.018       |
+| < 5 cm                | 99 (50.5%)                     | 25436 (49.6%)                     |             |
+| ≥ 5 cm                | 97 (49.5%)                     | 17524 (34.2%)                     |             |
+| Desconhecido          | 0 (0.0%)                       | 8305 (16.2%)                      |             |
+| **CEA**                |                                 |                                    | <0.001      |
+| Negativo              | 105 (53.6%)                    | 15928 (31.0%)                     |             |
+| Limítrofe             | 58 (29.6%)                     | 17136 (33.4%)                     |             |
+| Positivo              | 28 (14.3%)                     | 8621 (16.8%)                      |             |
+| Desconhecido          | 5 (2.6%)                       | 20680 (40.7%)                     |             |
+| **Depósitos Tumorais** |                                 |                                    | <0.001      |
+| Não                   | 178 (90.8%)                    | 47982 (93.6%)                     |             |
+| Sim                   | 18 (9.2%)                      | 2839 (5.6%)                       |             |
+| Desconhecido          | 0 (0.0%)                       | 12722 (24.8%)                     |             |
+| **Metástase Hepática/Pulmonar** |                       |                                    | 0.001       |
+| Não                   | 180 (91.8%)                    | 42303 (82.5%)                     |             |
+| Sim                   | 16 (8.2%)                      | 8962 (17.5%)                      |             |
+
+
 ### **`readme`**  
 Arquivo de documentação inicial sobre os objetivos e conteúdos do repositório.

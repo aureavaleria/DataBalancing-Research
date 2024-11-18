@@ -5,7 +5,7 @@ Este repositório contém notebooks e arquivos relacionados à análise explorat
 ## Conteúdo do Repositório
 
 ### **`Análise_Exploratória_de_Dados.ipynb`**  
-Notebook dedicado à análise exploratória inicial da base de dados, incluindo gráficos descritivos para variáveis categóricas e contínuas. Esta análise fornece insights iniciais sobre a distribuição dos dados e possíveis padrões.
+Notebook dedicado à análise exploratória inicial da base de dados, incluindo gráficos descritivos para variáveis categóricas e contínuas. 
 
 ### **`Análise_Estatística.ipynb`**  
 Notebook focado em análises estatísticas avançadas, como testes de associação (Qui-Quadrado e Fisher), correlação entre variáveis e regressão logística para prever fatores relacionados à metástase.

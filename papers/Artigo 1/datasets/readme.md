@@ -16,7 +16,33 @@ Este notebook é uma parte essencial do pipeline de experimentação e oferece s
 
 
 ### **`Análise_Estatística.ipynb`**  
-Notebook focado em análises estatísticas avançadas, como testes de associação (Qui-Quadrado e Fisher), correlação entre variáveis e regressão logística para prever fatores relacionados à metástase.
+## **Análise Estatística das Variáveis Clínicas e Demográficas**
+
+O arquivo realiza uma análise estatística detalhada sobre as variáveis clínicas e demográficas de pacientes com câncer colorretal, com foco em sua relação com a presença de metástases hepáticas e pulmonares. O processo é baseado em dados da base SEER e quer descrever os dados utilizado no artigo.
+
+---
+
+### **Resumo das Principais Etapas**
+
+#### **1. Carregamento e Pré-processamento**
+- O dataset é carregado e ajustado, incluindo o tratamento de valores faltantes e a criação de uma variável binária que combina as informações de metástases hepáticas e pulmonares.
+
+#### **2. Balanceamento dos Dados**
+- Técnicas de balanceamento, como SMOTE (over-sampling) e undersampling, são aplicadas para ajustar a distribuição da variável alvo (presença ou ausência de metástases).
+
+#### **3. Análise de Correlação**
+- Matrizes de correlação são geradas para explorar as relações entre as variáveis em diferentes cenários: sem balanceamento, com SMOTE, e com undersampling.
+
+#### **4. Análise Univariada**
+- Testes estatísticos, como Qui-quadrado e Fisher, são realizados para identificar associações significativas entre variáveis categóricas e a presença de metástases.
+
+#### **5. Análise Multivariada**
+- Um modelo de regressão logística multivariada é ajustado para avaliar o impacto combinado das variáveis na predição de metástases.
+
+#### **6. Análise Descritiva**
+- Distribuições das variáveis categóricas e contínuas são exploradas, gerando tabelas cruzadas e proporções para compreender melhor os padrões nos dados.
+
+---
 
 # **Arquivos de Dados:**
 - ## **`export.csv`**: 

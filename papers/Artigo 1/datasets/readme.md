@@ -70,8 +70,15 @@ Esta tabela apresenta uma descrição mais aprofundada das variáveis analisadas
 
  
 - **`bdsintetico.csv`**: Base de dados sintética gerada para testes de técnicas experimentais.
+A base de dados sintética utilizada neste repositório foi desenvolvida a partir dos percentuais descritos na tabela retirada **integralmente** do artigo **"Machine learning for predicting liver and/or lung metastasis in colorectal cancer: A retrospective study based on the SEER database"**. Esta tabela apresenta as características clínicas e patológicas dos pacientes da base SEER e foi essencial para guiar a construção da base sintética, permitindo a reprodução fiel das distribuições originais dos dados.
 
-- ## Tabela 1: Características Clínicas e Patológicas da Base de Dados SEER e do Conjunto de Validação Externa
+A base sintética foi criada replicando as distribuições percentuais das variáveis presentes na tabela, como idade, gênero, raça, estágio do tumor (T/N), tamanho do tumor, e outros atributos clínicos relevantes. O objetivo é garantir que a base de dados seja suficientemente representativa para validar os experimentos descritos no artigo, sem a necessidade de acesso direto à base de dados descrita no artigo, respeitando restrições de uso e privacidade.
+
+O propósito desta base é servir como um recurso para a reprodução do passo a passo descrito no artigo, permitindo a replicação de experimentos e a avaliação das técnicas de aprendizado de máquina aplicadas à predição de metástases hepáticas e/ou pulmonares em pacientes com câncer colorretal. Dessa forma, a base sintética oferece uma alternativa prática e confiável para o desenvolvimento e validação de modelos experimentais.
+
+A tabela abaixo, extraída diretamente do artigo, detalha as distribuições percentuais e as características utilizadas na construção da base de dados sintética.
+
+- ### Tabela 1: Características Clínicas e Patológicas da Base de Dados SEER e do Conjunto de Validação Externa
 
 | **Categoria**          | **Validação Externa (N = 196)** | **Base de Dados SEER (N = 51265)** | **P-Valor** |
 |-------------------------|---------------------------------|------------------------------------|-------------|

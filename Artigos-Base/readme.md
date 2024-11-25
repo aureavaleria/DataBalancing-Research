@@ -24,7 +24,7 @@ Reduzir os erros de classificação em Naive-Bayes ao propor técnicas que geren
 Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em cada intervalo para gerenciar o viés e a variância de forma mais eficaz.
 
 
-## 1.Introdução
+## Respostas sobre a Seção 1: Introdução
 
 ### Quais são as principais vantagens do classificador Naive-Bayes mencionadas no texto?
 - Os classificadores Naive-Bayes são simples, eficazes, eficientes e robustos, além de suportarem o treinamento incremental.
@@ -99,3 +99,34 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 
 ### Quais são as limitações da suposição de independência condicional no uso prático do Naive-Bayes?
 - Essa suposição pode ser violada na prática, especialmente quando os atributos são altamente correlacionados, levando a estimativas imprecisas.
+
+# Respostas sobre a Seção 3: A Natureza da Discretização
+
+### 1. Qual é a diferença entre atributos qualitativos e quantitativos no contexto do Naive-Bayes?  
+- **Atributos qualitativos** têm um pequeno número de valores possíveis e são categóricos, como "cor dos olhos".  
+- **Atributos quantitativos** podem assumir uma grande gama ou até mesmo um número infinito de valores, como "temperatura".
+
+### 2. Por que atributos quantitativos podem gerar um número infinito de valores possíveis?  
+- Atributos quantitativos podem ser valores contínuos, como medidas numéricas (e.g., temperatura), o que resulta em uma infinidade de valores possíveis dentro de um intervalo.
+
+### 3. Como o Naive-Bayes estima a probabilidade \( P(X_i = x_i \mid C = c) \) para atributos quantitativos?  
+- Para atributos quantitativos, \( P(X_i = x_i \mid C = c) \) pode ser estimado com base na frequência observada dentro de intervalos discretos que representam os valores contínuos.
+
+### 4. O que significa o termo "frequência" no contexto de discretização, e como ele é utilizado?  
+- "Frequência" refere-se ao número de instâncias de treinamento em cada intervalo. É usada para calcular a probabilidade de atributos contínuos após a discretização.
+
+### 5. O que é "número de intervalos" e qual é sua importância no processo de discretização?  
+- O "número de intervalos" é a quantidade de divisões feitas nos valores contínuos de um atributo. É importante porque impacta a granularidade da discretização e, consequentemente, a precisão do modelo.
+
+### 6. Quais são os desafios associados à estimativa de \( P(X_i = x_i) \) quando há poucas instâncias de treinamento disponíveis?  
+- Com poucas instâncias, as probabilidades podem ser mal estimadas devido à insuficiência de dados em certos intervalos, resultando em informações irrelevantes ou inconsistentes.
+
+### 7. Quais são as duas métricas importantes envolvidas no estudo de discretização mencionadas nesta seção?  
+- **Interval frequency:** Frequência de instâncias de treinamento em cada intervalo.  
+- **Interval number:** O total de intervalos formados pela discretização.
+
+### 8. Por que é importante diferenciar intervalos com frequências distintas durante a discretização?  
+- Intervalos com frequências distintas permitem capturar variações importantes nos dados, melhorando a capacidade do modelo de distinguir padrões entre as classes.
+
+### 9. Como a escolha de intervalos e frequências pode impactar o desempenho do classificador Naive-Bayes?  
+- Escolhas inadequadas podem levar a estimativas imprecisas de probabilidades e piorar o desempenho do classificador. Um equilíbrio é necessário para evitar subajuste ou superajuste.

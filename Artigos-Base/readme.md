@@ -130,3 +130,36 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 
 ### 9. Como a escolha de intervalos e frequências pode impactar o desempenho do classificador Naive-Bayes?  
 - Escolhas inadequadas podem levar a estimativas imprecisas de probabilidades e piorar o desempenho do classificador. Um equilíbrio é necessário para evitar subajuste ou superajuste.
+
+  # Respostas sobre a Seção 4: Por que a discretização pode ser eficaz?
+
+### 1. Por que a discretização pode ser útil em classificadores Naive-Bayes?
+- A discretização pode reduzir o erro de classificação em classificadores Naive-Bayes ao simplificar as suposições sobre a forma das distribuições de probabilidade subjacentes, como sugerido por Dougherty et al. (1995).
+
+### 2. Qual foi a sugestão de Dougherty et al. (1995) sobre o uso de discretização em classificadores Naive-Bayes?
+- Eles sugeriram que a discretização pode ser eficaz ao substituir a estimativa da densidade de probabilidade contínua por valores discretos, evitando a necessidade de suposições rígidas sobre as distribuições subjacentes.
+
+### 3. Como Kononenko (1991) contribuiu para o entendimento da discretização em classificadores Naive-Bayes?
+- Kononenko (1991) mostrou que a suposição de independência condicional pode ser usada para simplificar o cálculo das probabilidades ao discretizar os valores contínuos.
+
+### 4. O que o **Teorema 1** indica sobre a relação entre a precisão da estimativa de \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) e a discretização?
+- O teorema afirma que, desde que a suposição de independência condicional seja válida, a discretização fornecerá estimativas de probabilidade tão precisas quanto as obtidas por funções de densidade de probabilidade corretas.
+
+### 5. Qual é o papel da suposição de independência condicional no uso de discretização segundo o texto?
+- Ela permite que as probabilidades conjuntas sejam decompostas no produto das probabilidades individuais, simplificando o cálculo em modelos Naive-Bayes.
+
+### 6. Como as fórmulas fornecidas pelo teorema de Bayes ajudam na simplificação das estimativas para Naive-Bayes?
+- Elas permitem normalizar e calcular \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) utilizando produtos de probabilidades discretas, tornando o cálculo mais eficiente.
+
+### 7. Quais métricas de desempenho são sugeridas para avaliar métodos de discretização?
+- A precisão da estimativa de \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) e a redução do erro de classificação são sugeridas como métricas principais.
+
+### 8. Qual é a relação entre os erros de classificação e a precisão das estimativas de probabilidade no contexto da discretização?
+- Erros de classificação podem ser reduzidos à medida que a precisão das estimativas de probabilidade melhora, especialmente quando a discretização é aplicada adequadamente.
+
+### 9. Como a escolha de intervalos afeta o desempenho da classificação no modelo Naive-Bayes?
+- Escolhas inadequadas podem levar a estimativas imprecisas de \( P(X_i = x_i \mid C = c) \), impactando negativamente o desempenho do classificador.
+
+### 10. Qual é a principal limitação da análise teórica descrita sobre o impacto da discretização?
+- A análise depende da suposição de independência condicional, que pode não ser válida para todos os conjuntos de dados ou atributos.
+

@@ -263,3 +263,64 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 
 ---
 
+# Questões seção 7
+
+---
+
+## 1. Quais são as novas técnicas de discretização propostas?
+- **Discretização Proporcional (PD):** Ajusta a frequência e o número de intervalos proporcionalmente ao tamanho dos dados de treinamento.
+- **Discretização de Frequência Fixa (FFD):** Define um número fixo de intervalos e os distribui para manter uma frequência mínima suficiente por intervalo.
+
+---
+
+## 2. Qual é o objetivo principal dessas novas técnicas?
+Gerenciar o viés e a variância de discretização ajustando a frequência dos intervalos e o número de intervalos para melhorar a eficácia e eficiência dos classificadores Naive Bayes.
+
+---
+
+## 3. Como funciona a Discretização Proporcional (PD)?
+- Ajusta a frequência desejada e o número de intervalos para se alinhar proporcionalmente ao tamanho dos dados.
+- Divide os dados em intervalos de frequência aproximadamente iguais, calculados como:
+
+  \[
+  x = r \cdot m
+  \]
+
+  Onde:
+  - \( r \): Frequência desejada por intervalo.
+  - \( m \): Número total de instâncias de treinamento.
+
+---
+
+## 4. Quais são as vantagens da Discretização Proporcional?
+- Reduz o viés e a variância da discretização ajustando os tamanhos dos intervalos conforme o aumento do conjunto de dados.
+- Intervalos maiores resultam em estimativas mais estáveis e confiáveis para o modelo Naive Bayes.
+
+---
+
+## 5. Como funciona a Discretização de Frequência Fixa (FFD)?
+- Define um número fixo de intervalos \( r \) e os distribui de forma que cada intervalo contenha uma frequência mínima de instâncias.
+- Permite maior controle sobre a variância ao garantir que todos os intervalos tenham uma frequência suficiente para estimativas confiáveis.
+
+---
+
+## 6. Quais são as vantagens da FFD?
+- Evita extremos de viés e variância ao manter uma frequência mínima por intervalo.
+- Pode limitar a complexidade computacional ao reduzir o número de intervalos.
+
+---
+
+## 7. Como as novas técnicas comparam-se aos métodos anteriores (EWD, EFD e EMD)?
+- **PD** e **FFD** são projetadas para resolver limitações dos métodos anteriores em termos de viés e variância, ajustando dinamicamente os intervalos para melhorar as estimativas probabilísticas.
+- Métodos como **EWD** e **EFD** têm menos controle sobre a variância, enquanto o **EMD** é mais preciso, mas computacionalmente mais caro.
+
+---
+
+## 8. Qual é a complexidade de tempo dessas técnicas?
+- **EWD, EFD, PD e FFD:** Complexidade de ordem \( O(n \log n) \), onde \( n \) é o número de instâncias.
+- **EMD:** Complexidade maior devido à busca por cortes ótimos baseados na entropia.
+- **LD:** Complexidade alta, pois realiza discretização dinâmica para cada instância testada.
+
+---
+
+

@@ -219,4 +219,47 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 ### 12. Qual é o papel da heurística na discretização?
 - Métodos heurísticos são necessários para lidar com a falta de funções de densidade de probabilidade subjacentes em muitos casos práticos.
 
+## sobre a Seção 6:
+
+### 1. O que são EWD e EFD, e como eles funcionam?
+- **Equal Width Discretization (EWD):** Divide o intervalo entre os valores máximo e mínimo dos dados em \( k \) intervalos de tamanho igual.
+- **Equal Frequency Discretization (EFD):** Divide os dados em \( k \) intervalos onde cada intervalo contém aproximadamente o mesmo número de instâncias.
+
+---
+
+### 2. Quais são as limitações do EWD e EFD?
+- **EWD e EFD** muitas vezes funcionam bem para classificadores Naive Bayes, mas:
+  - Quando o tamanho dos dados de treinamento é pequeno, os intervalos podem ter frequência muito baixa, o que prejudica a precisão.
+  - Quando o conjunto de dados cresce, EFD pode criar intervalos com tamanhos muito diferentes, causando variância elevada.
+
+---
+
+### 3. O que é Entropy Minimization Discretization (EMD)?
+- O **EMD** é um método supervisionado que avalia candidatos a pontos de corte para discretização com base na redução da entropia, otimizando os limites dos intervalos para separar melhor as classes-alvo.
+
+---
+
+### 4. Como o EMD é comparado ao EWD e EFD?
+- O **EMD** geralmente supera o EWD e EFD porque usa informações da classe para determinar os intervalos, enquanto os outros dois métodos são não supervisionados.
+- É computacionalmente mais caro, mas oferece melhores resultados em termos de precisão de classificação.
+
+---
+
+### 5. O que é Lazy Discretization (LD) e como ela funciona?
+- **LD** realiza a discretização apenas durante a classificação. Para cada instância, ela determina os pontos de corte dinamicamente com base nos valores da instância específica.
+- Isso resulta em intervalos que podem ser mais adaptativos, mas também aumenta os custos computacionais.
+
+---
+
+### 6. Quais são as vantagens e desvantagens da LD?
+- **Vantagens:** Melhor controle sobre viés e variância, já que os intervalos são adaptados a cada instância.
+- **Desvantagens:** Alto custo computacional e maior complexidade em comparação a métodos como EWD, EFD ou EMD.
+
+---
+
+### 7. Quais métodos são mais indicados para Naive Bayes e por quê?
+- Métodos como **EMD** são melhores em termos de precisão porque consideram as classes no processo de discretização.
+- Métodos não supervisionados (EWD, EFD) são mais rápidos, mas podem ter desempenho inferior em conjuntos de dados complexos.
+
+---
 

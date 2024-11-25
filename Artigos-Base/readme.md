@@ -163,3 +163,60 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 ### 10. Qual é a principal limitação da análise teórica descrita sobre o impacto da discretização?
 - A análise depende da suposição de independência condicional, que pode não ser válida para todos os conjuntos de dados ou atributos.
 
+- # Perguntas e Respostas
+
+## Seção 5.1: Classification Bias and Variance
+
+### 1. O que é o "trade-off" de viés e variância mencionado no texto?
+- Refere-se ao equilíbrio necessário entre viés (erro sistemático) e variância (sensibilidade aos dados de treinamento). Um modelo com alto viés pode ser subajustado, enquanto um modelo com alta variância pode ser superajustado.
+
+### 2. Como a analogia com o alvo ajuda a explicar viés e variância?
+- O viés é comparado a flechas que consistentemente erram o alvo em uma direção específica, enquanto a variância reflete a dispersão das flechas ao redor do alvo.
+
+### 3. Por que um bom algoritmo de aprendizado deve equilibrar viés e variância?
+- Um bom algoritmo minimiza ambos, garantindo que as estimativas sejam precisas e consistentes, o que melhora o desempenho do modelo.
+
+---
+
+## Seção 5.2: Decision Boundaries
+
+### 4. O que são "decision boundaries" no contexto do Naive-Bayes?
+- São os limites que separam as classes com base nas probabilidades condicionais dos atributos. Elas indicam onde uma instância muda de uma classe para outra.
+
+### 5. Como Hu et al. (2000) analisaram as decision boundaries?
+- Eles utilizaram uma função de densidade de probabilidade relativa para calcular os pontos de interseção entre curvas de probabilidade de diferentes classes, sugerindo como os limites podem ser ajustados.
+
+### 6. Por que a escolha de intervalos afeta as decision boundaries?
+- Intervalos mal definidos podem levar a limites imprecisos, impactando a classificação correta de instâncias.
+
+---
+
+## Seção 5.3: Decision Boundaries After Discretization Bias and Variance
+
+### 7. Como a discretização afeta as decision boundaries em problemas de um atributo?
+- A discretização define os limites com base em valores intervalares, que podem não refletir perfeitamente as probabilidades contínuas subjacentes.
+
+### 8. Quais são os desafios das decision boundaries em problemas de múltiplos atributos?
+- Para múltiplos atributos, os limites de decisão podem depender da interação entre diferentes atributos, tornando o processo mais complexo.
+
+---
+
+## Seção 5.4: Tolerance of Probability Estimation
+
+### 9. O que é "tolerance of probability estimation"?
+- É a margem de erro aceitável na estimativa de probabilidades sem impactar significativamente a classificação.
+
+### 10. Como a frequência intervalar afeta a tolerância de estimativa?
+- Maior frequência intervalar reduz a margem de erro nas estimativas, tornando-as mais precisas.
+
+### 11. Qual é a principal limitação dos métodos de discretização descritos?
+- A falta de uma estratégia universal de discretização, já que diferentes instâncias e conjuntos de dados podem exigir abordagens distintas.
+
+---
+
+## Observações Gerais
+
+### 12. Qual é o papel da heurística na discretização?
+- Métodos heurísticos são necessários para lidar com a falta de funções de densidade de probabilidade subjacentes em muitos casos práticos.
+
+

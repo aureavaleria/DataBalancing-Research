@@ -102,162 +102,162 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 
 # Respostas sobre a Seção 3: A Natureza da Discretização
 
-### 1. Qual é a diferença entre atributos qualitativos e quantitativos no contexto do Naive-Bayes?  
+### Qual é a diferença entre atributos qualitativos e quantitativos no contexto do Naive-Bayes?  
 - **Atributos qualitativos** têm um pequeno número de valores possíveis e são categóricos, como "cor dos olhos".  
 - **Atributos quantitativos** podem assumir uma grande gama ou até mesmo um número infinito de valores, como "temperatura".
 
-### 2. Por que atributos quantitativos podem gerar um número infinito de valores possíveis?  
+### Por que atributos quantitativos podem gerar um número infinito de valores possíveis?  
 - Atributos quantitativos podem ser valores contínuos, como medidas numéricas (e.g., temperatura), o que resulta em uma infinidade de valores possíveis dentro de um intervalo.
 
-### 3. Como o Naive-Bayes estima a probabilidade \( P(X_i = x_i \mid C = c) \) para atributos quantitativos?  
+### Como o Naive-Bayes estima a probabilidade \( P(X_i = x_i \mid C = c) \) para atributos quantitativos?  
 - Para atributos quantitativos, \( P(X_i = x_i \mid C = c) \) pode ser estimado com base na frequência observada dentro de intervalos discretos que representam os valores contínuos.
 
-### 4. O que significa o termo "frequência" no contexto de discretização, e como ele é utilizado?  
+### O que significa o termo "frequência" no contexto de discretização, e como ele é utilizado?  
 - "Frequência" refere-se ao número de instâncias de treinamento em cada intervalo. É usada para calcular a probabilidade de atributos contínuos após a discretização.
 
-### 5. O que é "número de intervalos" e qual é sua importância no processo de discretização?  
+### O que é "número de intervalos" e qual é sua importância no processo de discretização?  
 - O "número de intervalos" é a quantidade de divisões feitas nos valores contínuos de um atributo. É importante porque impacta a granularidade da discretização e, consequentemente, a precisão do modelo.
 
-### 6. Quais são os desafios associados à estimativa de \( P(X_i = x_i) \) quando há poucas instâncias de treinamento disponíveis?  
+### Quais são os desafios associados à estimativa de \( P(X_i = x_i) \) quando há poucas instâncias de treinamento disponíveis?  
 - Com poucas instâncias, as probabilidades podem ser mal estimadas devido à insuficiência de dados em certos intervalos, resultando em informações irrelevantes ou inconsistentes.
 
-### 7. Quais são as duas métricas importantes envolvidas no estudo de discretização mencionadas nesta seção?  
+### Quais são as duas métricas importantes envolvidas no estudo de discretização mencionadas nesta seção?  
 - **Interval frequency:** Frequência de instâncias de treinamento em cada intervalo.  
 - **Interval number:** O total de intervalos formados pela discretização.
 
-### 8. Por que é importante diferenciar intervalos com frequências distintas durante a discretização?  
+### Por que é importante diferenciar intervalos com frequências distintas durante a discretização?  
 - Intervalos com frequências distintas permitem capturar variações importantes nos dados, melhorando a capacidade do modelo de distinguir padrões entre as classes.
 
-### 9. Como a escolha de intervalos e frequências pode impactar o desempenho do classificador Naive-Bayes?  
+### Como a escolha de intervalos e frequências pode impactar o desempenho do classificador Naive-Bayes?  
 - Escolhas inadequadas podem levar a estimativas imprecisas de probabilidades e piorar o desempenho do classificador. Um equilíbrio é necessário para evitar subajuste ou superajuste.
 
   # Respostas sobre a Seção 4: Por que a discretização pode ser eficaz?
 
-### 1. Por que a discretização pode ser útil em classificadores Naive-Bayes?
+### Por que a discretização pode ser útil em classificadores Naive-Bayes?
 - A discretização pode reduzir o erro de classificação em classificadores Naive-Bayes ao simplificar as suposições sobre a forma das distribuições de probabilidade subjacentes, como sugerido por Dougherty et al. (1995).
 
-### 2. Qual foi a sugestão de Dougherty et al. (1995) sobre o uso de discretização em classificadores Naive-Bayes?
+### Qual foi a sugestão de Dougherty et al. (1995) sobre o uso de discretização em classificadores Naive-Bayes?
 - Eles sugeriram que a discretização pode ser eficaz ao substituir a estimativa da densidade de probabilidade contínua por valores discretos, evitando a necessidade de suposições rígidas sobre as distribuições subjacentes.
 
-### 3. Como Kononenko (1991) contribuiu para o entendimento da discretização em classificadores Naive-Bayes?
+### Como Kononenko (1991) contribuiu para o entendimento da discretização em classificadores Naive-Bayes?
 - Kononenko (1991) mostrou que a suposição de independência condicional pode ser usada para simplificar o cálculo das probabilidades ao discretizar os valores contínuos.
 
-### 4. O que o **Teorema 1** indica sobre a relação entre a precisão da estimativa de \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) e a discretização?
+### O que o **Teorema 1** indica sobre a relação entre a precisão da estimativa de \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) e a discretização?
 - O teorema afirma que, desde que a suposição de independência condicional seja válida, a discretização fornecerá estimativas de probabilidade tão precisas quanto as obtidas por funções de densidade de probabilidade corretas.
 
-### 5. Qual é o papel da suposição de independência condicional no uso de discretização segundo o texto?
+### Qual é o papel da suposição de independência condicional no uso de discretização segundo o texto?
 - Ela permite que as probabilidades conjuntas sejam decompostas no produto das probabilidades individuais, simplificando o cálculo em modelos Naive-Bayes.
 
-### 6. Como as fórmulas fornecidas pelo teorema de Bayes ajudam na simplificação das estimativas para Naive-Bayes?
+### Como as fórmulas fornecidas pelo teorema de Bayes ajudam na simplificação das estimativas para Naive-Bayes?
 - Elas permitem normalizar e calcular \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) utilizando produtos de probabilidades discretas, tornando o cálculo mais eficiente.
 
-### 7. Quais métricas de desempenho são sugeridas para avaliar métodos de discretização?
+### Quais métricas de desempenho são sugeridas para avaliar métodos de discretização?
 - A precisão da estimativa de \( P(C = c \mid \mathbf{X} = \mathbf{x}) \) e a redução do erro de classificação são sugeridas como métricas principais.
 
-### 8. Qual é a relação entre os erros de classificação e a precisão das estimativas de probabilidade no contexto da discretização?
+### Qual é a relação entre os erros de classificação e a precisão das estimativas de probabilidade no contexto da discretização?
 - Erros de classificação podem ser reduzidos à medida que a precisão das estimativas de probabilidade melhora, especialmente quando a discretização é aplicada adequadamente.
 
-### 9. Como a escolha de intervalos afeta o desempenho da classificação no modelo Naive-Bayes?
+### Como a escolha de intervalos afeta o desempenho da classificação no modelo Naive-Bayes?
 - Escolhas inadequadas podem levar a estimativas imprecisas de \( P(X_i = x_i \mid C = c) \), impactando negativamente o desempenho do classificador.
 
-### 10. Qual é a principal limitação da análise teórica descrita sobre o impacto da discretização?
+### Qual é a principal limitação da análise teórica descrita sobre o impacto da discretização?
 - A análise depende da suposição de independência condicional, que pode não ser válida para todos os conjuntos de dados ou atributos.
 
 - # Perguntas e Respostas
 
 ## Seção 5.1: Classification Bias and Variance
 
-### 1. O que é o "trade-off" de viés e variância mencionado no texto?
+### O que é o "trade-off" de viés e variância mencionado no texto?
 - Refere-se ao equilíbrio necessário entre viés (erro sistemático) e variância (sensibilidade aos dados de treinamento). Um modelo com alto viés pode ser subajustado, enquanto um modelo com alta variância pode ser superajustado.
 
-### 2. Como a analogia com o alvo ajuda a explicar viés e variância?
+### Como a analogia com o alvo ajuda a explicar viés e variância?
 - O viés é comparado a flechas que consistentemente erram o alvo em uma direção específica, enquanto a variância reflete a dispersão das flechas ao redor do alvo.
 
-### 3. Por que um bom algoritmo de aprendizado deve equilibrar viés e variância?
+### Por que um bom algoritmo de aprendizado deve equilibrar viés e variância?
 - Um bom algoritmo minimiza ambos, garantindo que as estimativas sejam precisas e consistentes, o que melhora o desempenho do modelo.
 
 ---
 
 ## Seção 5.2: Decision Boundaries
 
-### 4. O que são "decision boundaries" no contexto do Naive-Bayes?
+### O que são "decision boundaries" no contexto do Naive-Bayes?
 - São os limites que separam as classes com base nas probabilidades condicionais dos atributos. Elas indicam onde uma instância muda de uma classe para outra.
 
-### 5. Como Hu et al. (2000) analisaram as decision boundaries?
+### Como Hu et al. (2000) analisaram as decision boundaries?
 - Eles utilizaram uma função de densidade de probabilidade relativa para calcular os pontos de interseção entre curvas de probabilidade de diferentes classes, sugerindo como os limites podem ser ajustados.
 
-### 6. Por que a escolha de intervalos afeta as decision boundaries?
+### Por que a escolha de intervalos afeta as decision boundaries?
 - Intervalos mal definidos podem levar a limites imprecisos, impactando a classificação correta de instâncias.
 
 ---
 
 ## Seção 5.3: Decision Boundaries After Discretization Bias and Variance
 
-### 7. Como a discretização afeta as decision boundaries em problemas de um atributo?
+### Como a discretização afeta as decision boundaries em problemas de um atributo?
 - A discretização define os limites com base em valores intervalares, que podem não refletir perfeitamente as probabilidades contínuas subjacentes.
 
-### 8. Quais são os desafios das decision boundaries em problemas de múltiplos atributos?
+### Quais são os desafios das decision boundaries em problemas de múltiplos atributos?
 - Para múltiplos atributos, os limites de decisão podem depender da interação entre diferentes atributos, tornando o processo mais complexo.
 
 ---
 
 ## Seção 5.4: Tolerance of Probability Estimation
 
-### 9. O que é "tolerance of probability estimation"?
+### O que é "tolerance of probability estimation"?
 - É a margem de erro aceitável na estimativa de probabilidades sem impactar significativamente a classificação.
 
-### 10. Como a frequência intervalar afeta a tolerância de estimativa?
+### Como a frequência intervalar afeta a tolerância de estimativa?
 - Maior frequência intervalar reduz a margem de erro nas estimativas, tornando-as mais precisas.
 
-### 11. Qual é a principal limitação dos métodos de discretização descritos?
+### Qual é a principal limitação dos métodos de discretização descritos?
 - A falta de uma estratégia universal de discretização, já que diferentes instâncias e conjuntos de dados podem exigir abordagens distintas.
 
 ---
 
 ## Observações Gerais
 
-### 12. Qual é o papel da heurística na discretização?
+### Qual é o papel da heurística na discretização?
 - Métodos heurísticos são necessários para lidar com a falta de funções de densidade de probabilidade subjacentes em muitos casos práticos.
 
 ## sobre a Seção 6:
 
-### 1. O que são EWD e EFD, e como eles funcionam?
+### O que são EWD e EFD, e como eles funcionam?
 - **Equal Width Discretization (EWD):** Divide o intervalo entre os valores máximo e mínimo dos dados em \( k \) intervalos de tamanho igual.
 - **Equal Frequency Discretization (EFD):** Divide os dados em \( k \) intervalos onde cada intervalo contém aproximadamente o mesmo número de instâncias.
 
 ---
 
-### 2. Quais são as limitações do EWD e EFD?
+### Quais são as limitações do EWD e EFD?
 - **EWD e EFD** muitas vezes funcionam bem para classificadores Naive Bayes, mas:
   - Quando o tamanho dos dados de treinamento é pequeno, os intervalos podem ter frequência muito baixa, o que prejudica a precisão.
   - Quando o conjunto de dados cresce, EFD pode criar intervalos com tamanhos muito diferentes, causando variância elevada.
 
 ---
 
-### 3. O que é Entropy Minimization Discretization (EMD)?
+### O que é Entropy Minimization Discretization (EMD)?
 - O **EMD** é um método supervisionado que avalia candidatos a pontos de corte para discretização com base na redução da entropia, otimizando os limites dos intervalos para separar melhor as classes-alvo.
 
 ---
 
-### 4. Como o EMD é comparado ao EWD e EFD?
+### Como o EMD é comparado ao EWD e EFD?
 - O **EMD** geralmente supera o EWD e EFD porque usa informações da classe para determinar os intervalos, enquanto os outros dois métodos são não supervisionados.
 - É computacionalmente mais caro, mas oferece melhores resultados em termos de precisão de classificação.
 
 ---
 
-### 5. O que é Lazy Discretization (LD) e como ela funciona?
+### O que é Lazy Discretization (LD) e como ela funciona?
 - **LD** realiza a discretização apenas durante a classificação. Para cada instância, ela determina os pontos de corte dinamicamente com base nos valores da instância específica.
 - Isso resulta em intervalos que podem ser mais adaptativos, mas também aumenta os custos computacionais.
 
 ---
 
-### 6. Quais são as vantagens e desvantagens da LD?
+### Quais são as vantagens e desvantagens da LD?
 - **Vantagens:** Melhor controle sobre viés e variância, já que os intervalos são adaptados a cada instância.
 - **Desvantagens:** Alto custo computacional e maior complexidade em comparação a métodos como EWD, EFD ou EMD.
 
 ---
 
-### 7. Quais métodos são mais indicados para Naive Bayes e por quê?
+### Quais métodos são mais indicados para Naive Bayes e por quê?
 - Métodos como **EMD** são melhores em termos de precisão porque consideram as classes no processo de discretização.
 - Métodos não supervisionados (EWD, EFD) são mais rápidos, mas podem ter desempenho inferior em conjuntos de dados complexos.
 
@@ -267,18 +267,18 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 
 ---
 
-## 1. Quais são as novas técnicas de discretização propostas?
+## Quais são as novas técnicas de discretização propostas?
 - **Discretização Proporcional (PD):** Ajusta a frequência e o número de intervalos proporcionalmente ao tamanho dos dados de treinamento.
 - **Discretização de Frequência Fixa (FFD):** Define um número fixo de intervalos e os distribui para manter uma frequência mínima suficiente por intervalo.
 
 ---
 
-## 2. Qual é o objetivo principal dessas novas técnicas?
+## Qual é o objetivo principal dessas novas técnicas?
 Gerenciar o viés e a variância de discretização ajustando a frequência dos intervalos e o número de intervalos para melhorar a eficácia e eficiência dos classificadores Naive Bayes.
 
 ---
 
-## 3. Como funciona a Discretização Proporcional (PD)?
+## Como funciona a Discretização Proporcional (PD)?
 - Ajusta a frequência desejada e o número de intervalos para se alinhar proporcionalmente ao tamanho dos dados.
 - Divide os dados em intervalos de frequência aproximadamente iguais, calculados como:
 
@@ -292,31 +292,31 @@ Gerenciar o viés e a variância de discretização ajustando a frequência dos 
 
 ---
 
-## 4. Quais são as vantagens da Discretização Proporcional?
+## Quais são as vantagens da Discretização Proporcional?
 - Reduz o viés e a variância da discretização ajustando os tamanhos dos intervalos conforme o aumento do conjunto de dados.
 - Intervalos maiores resultam em estimativas mais estáveis e confiáveis para o modelo Naive Bayes.
 
 ---
 
-## 5. Como funciona a Discretização de Frequência Fixa (FFD)?
+## Como funciona a Discretização de Frequência Fixa (FFD)?
 - Define um número fixo de intervalos \( r \) e os distribui de forma que cada intervalo contenha uma frequência mínima de instâncias.
 - Permite maior controle sobre a variância ao garantir que todos os intervalos tenham uma frequência suficiente para estimativas confiáveis.
 
 ---
 
-## 6. Quais são as vantagens da FFD?
+## Quais são as vantagens da FFD?
 - Evita extremos de viés e variância ao manter uma frequência mínima por intervalo.
 - Pode limitar a complexidade computacional ao reduzir o número de intervalos.
 
 ---
 
-## 7. Como as novas técnicas comparam-se aos métodos anteriores (EWD, EFD e EMD)?
+## Como as novas técnicas comparam-se aos métodos anteriores (EWD, EFD e EMD)?
 - **PD** e **FFD** são projetadas para resolver limitações dos métodos anteriores em termos de viés e variância, ajustando dinamicamente os intervalos para melhorar as estimativas probabilísticas.
 - Métodos como **EWD** e **EFD** têm menos controle sobre a variância, enquanto o **EMD** é mais preciso, mas computacionalmente mais caro.
 
 ---
 
-## 8. Qual é a complexidade de tempo dessas técnicas?
+## Qual é a complexidade de tempo dessas técnicas?
 - **EWD, EFD, PD e FFD:** Complexidade de ordem \( O(n \log n) \), onde \( n \) é o número de instâncias.
 - **EMD:** Complexidade maior devido à busca por cortes ótimos baseados na entropia.
 - **LD:** Complexidade alta, pois realiza discretização dinâmica para cada instância testada.

@@ -33,12 +33,6 @@ Essas técnicas ajustam o número de intervalos e a quantidade de instâncias em
 ### **Por que o desempenho do Naive-Bayes às vezes supera métodos mais complexos?**
 Apesar das fortes suposições de independência dos atributos, o Naive-Bayes pode superar classificadores mais complexos em aplicações práticas, como diagnósticos médicos.
 
-### **Quais são algumas das áreas em que o Naive-Bayes é amplamente utilizado?**
-- Diagnósticos médicos  
-- Classificação de texto  
-- Mineração de dados  
-- Análise de sentimentos
-
 ---
 
 ## **Desafios da Discretização**
@@ -81,8 +75,7 @@ Ajuda a definir como os dados devem ser tratados durante a análise. Atributos q
 ## **Seção 2.2: Classificadores Naive-Bayes**
 
 ### **Como o Naive-Bayes define as variáveis utilizadas em seu modelo?**
-- \( C \): Variável representando a classe.  
-- \( \mathbf{X} = \{X_1, X_2, ..., X_n\} \): Vetor de valores observados dos atributos.
+
 
 ### **Qual é o papel da suposição de independência condicional no Naive-Bayes?**
 Permite decompor a probabilidade conjunta dos atributos no produto das probabilidades individuais, simplificando os cálculos.
@@ -93,9 +86,6 @@ Se os atributos forem altamente correlacionados, as estimativas podem ser imprec
 ---
 
 ## **Seção 3: A Natureza da Discretização**
-
-### **Como o Naive-Bayes estima \( P(X_i = x_i \mid C = c) \) para atributos quantitativos?**
-Usa a frequência observada em intervalos discretos.
 
 ### **O que é "frequência" no contexto de discretização?**
 Número de instâncias de treinamento em cada intervalo, usado para calcular probabilidades.

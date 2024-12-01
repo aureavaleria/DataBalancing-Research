@@ -1,5 +1,10 @@
 # **Questões e Respostas Baseadas no Artigo**
 
+![image](https://github.com/user-attachments/assets/914a29eb-891f-4ba6-ba35-81aeda412f45)
+
+
+
+
 ## **Resumo**
 
 ### **O que é discretização e por que ela é usada no aprendizado de Naive-Bayes?**

@@ -51,7 +51,7 @@ A tabela a seguir resume os métodos modificados e suas características.
 
 O artigo apresenta **modificações no SMOTE** como soluções para o desbalanceamento de dados, destacando abordagens híbridas e específicas que mitigam limitações do método original. Apesar das melhorias, desafios como **tratamento de ruído** e **otimização de clusters** ainda demandam investigações adicionais.
 
-                           |
+            
 ## **Referências**
 
 Yi, X., Xu, Y., Hu, Q., Krishnamoorthy, S., Li, W., & Tang, Z. (2022). ASN-SMOTE: A synthetic minority oversampling method with adaptive qualified synthesizer selection. *Complex & Intelligent Systems*, 8(3), 2247–2272. https://doi.org/10.1007/s40747-021-00638-w

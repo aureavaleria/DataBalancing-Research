@@ -58,9 +58,3 @@ O objetivo principal desta versão é otimizar os hiperparâmetros dos modelos p
 - **Versão_3_(ajustes_de_hiperparâmetros_SVM)**: Ajuste de hiperparâmetros do Support Vector Machine.
 
 ---
-
-### Próximos Passos
-1. Comparar os resultados entre os modelos ajustados.
-2. Selecionar o melhor modelo com base no desempenho das métricas.
-3. Documentar o pipeline completo e gerar gráficos comparativos.
-

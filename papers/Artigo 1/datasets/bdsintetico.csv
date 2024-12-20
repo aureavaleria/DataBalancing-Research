@@ -1,0 +1,197 @@
+Age recode with <1 year olds,Sex,"Race recode (White, Black, Other)","Origin recode NHIA (Hispanic, Non-Hisp)",Marital status at diagnosis,Histologic Type ICD-O-3,Grade Recode (thru 2017),Primary Site,"Derived AJCC T, 7th ed (2010-2015)","Derived AJCC N, 7th ed (2010-2015)",CS tumor size (2004-2015),CEA Pretreatment Interpretation Recode (2010+),Tumor Deposits Recode (2010+),Liver and/or lung metastasis
+53,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Appendix,T2,N0,4.82,Negative,No,Yes
+21,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T3,N0,2.1,Positive,No,No
+8,Male,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade II,Ascending colon,T3,N0,6.48,Negative,No,No
+95,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,,Negative,No,No
+53,Female,White,Non-Hispanic,Married,Signet ring cell carcinoma,Grade II,Hepatic flexure of colon,T3,N2,3.99,Unknown,Yes,No
+46,Female,White,Hispanic,Single,Adenocarcinoma,Grade II,Splenic flexure of colon,T4,N2,4.46,Positive,No,No
+72,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Appendix,T3,N0,1.81,Positive,No,Yes
+59,Male,White,Non-Hispanic,Single,Mucinous,Grade I,Transverse colon,T3,N0,,Positive,No,No
+87,Male,White,Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N0,11.38,Unknown,Yes,No
+37,Female,White,Hispanic,Single,Mucinous,Grade II,Descending colon,T3,N0,4.31,Negative,No,No
+44,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Appendix,T3,N0,4.18,Positive,No,No
+60,Male,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T4,N0,3.89,Negative,No,No
+45,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T3,N2,8.67,Negative,No,No
+63,Female,Other,Non-Hispanic,Single,Mucinous,Grade II,Cecum,T3,N1,,Unknown,No,No
+91,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Overlapping lesion of colon,T4,N2,3.22,Negative,Yes,No
+51,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T4,N2,2.14,Unknown,No,No
+30,Female,Black,Non-Hispanic,Married,Adenocarcinoma,Grade III,Ascending colon,T3,N0,10.06,Positive,No,No
+75,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T3,N1,3.07,Negative,No,No
+82,Male,Black,Non-Hispanic,Single,Mucinous,Grade II,Ascending colon,T3,N1,,Negative,No,Yes
+62,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,3.52,Positive,No,No
+16,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N0,2.5,Unknown,No,Yes
+49,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Sigmoid colon,T3,N0,3.0,Unknown,No,No
+28,Female,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade III,Ascending colon,T3,N0,3.3,Negative,No,No
+8,Male,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N1,6.38,Positive,No,No
+82,Male,White,Non-Hispanic,Single,Adenocarcinoma,Unknown,Overlapping lesion of colon,T3,N0,3.55,Negative,No,No
+28,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N0,4.98,Positive,No,No
+57,Male,White,Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N1,2.74,Positive,No,No
+8,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Sigmoid colon,T4,N1,7.07,Negative,No,No
+83,Male,White,Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N2,1.86,Unknown,No,No
+31,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Appendix,T3,N1,,Positive,No,No
+2,Male,White,Non-Hispanic,Single,Mucinous,Grade I,Ascending colon,T3,N0,2.72,Negative,No,No
+37,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T4,N0,1.17,Negative,No,No
+92,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N0,2.64,Negative,No,No
+68,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,3.56,Positive,No,No
+61,Female,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Descending colon,T3,N1,10.09,Negative,No,No
+13,Female,White,Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,7.38,Negative,No,No
+36,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T3,N1,2.91,Positive,No,Yes
+20,Female,White,Non-Hispanic,Married,Mucinous,Grade II,Sigmoid colon,T3,N0,3.03,Negative,No,No
+18,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N1,2.98,Negative,No,No
+82,Male,Other,Non-Hispanic,Married,Mucinous,Grade I,Ascending colon,T3,N1,3.27,Unknown,No,No
+72,Female,Black,Non-Hispanic,Married,Adenocarcinoma,Grade II,Cecum,T4,N1,,Positive,No,No
+62,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T1,N0,1.1,Negative,Yes,Yes
+47,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade I,Cecum,T2,N0,,Positive,No,No
+91,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T4,N0,7.62,Unknown,No,No
+76,Male,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N0,6.29,Negative,No,Yes
+25,Male,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N1,2.94,Negative,No,No
+11,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Descending colon,T4,N0,1.5,Unknown,No,No
+61,Female,Other,Hispanic,Married,Mucinous,Grade II,Splenic flexure of colon,T3,N0,7.03,Negative,No,No
+54,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade III,Ascending colon,T4,N0,6.8,Positive,Yes,No
+70,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Ascending colon,T3,N1,7.35,Negative,No,No
+39,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T4,N0,6.16,Negative,No,No
+54,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade I,Ascending colon,T4,N1,,Negative,No,No
+37,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade III,Sigmoid colon,T3,N0,3.31,Positive,No,No
+21,Male,White,Non-Hispanic,Married,Mucinous,Grade II,Transverse colon,T4,N0,2.61,Negative,No,No
+57,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Overlapping lesion of colon,T4,N0,,Unknown,No,No
+95,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Transverse colon,T3,N0,6.06,Negative,No,No
+61,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Ascending colon,T3,N1,7.75,Negative,No,No
+99,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade I,Overlapping lesion of colon,T3,N1,,Negative,No,No
+67,Male,Other,Non-Hispanic,Married,Adenocarcinoma,Grade I,Ascending colon,T3,N0,3.09,Negative,No,No
+50,Male,White,Hispanic,Married,Adenocarcinoma,Grade II,Cecum,T4,N1,6.75,Positive,No,No
+60,Male,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade II,Overlapping lesion of colon,T4,N1,3.79,Negative,Yes,Yes
+49,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Cecum,T3,N0,,Positive,No,No
+51,Male,White,Non-Hispanic,Unknown,Mucinous,Grade III,Ascending colon,T3,N1,,Negative,No,No
+70,Male,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N0,10.65,Negative,No,No
+56,Female,Other,Non-Hispanic,Single,Adenocarcinoma,Grade III,Appendix,T1,N0,7.22,Positive,No,No
+50,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T4,N2,,Negative,No,No
+10,Female,White,Hispanic,Married,Mucinous,Grade II,Cecum,T3,N1,2.98,Negative,No,No
+8,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T1,N0,2.72,Positive,No,No
+20,Male,White,Non-Hispanic,Married,Mucinous,Grade II,Transverse colon,T4,N0,2.98,Negative,No,Yes
+96,Male,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N0,,Negative,Yes,No
+14,Male,White,Non-Hispanic,Married,Mucinous,Grade II,Transverse colon,T3,N0,6.28,Negative,No,No
+81,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N0,,Unknown,No,No
+50,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N1,3.1,Negative,No,No
+30,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,1.89,Negative,No,No
+53,Male,White,Non-Hispanic,Married,Signet ring cell carcinoma,Grade II,Ascending colon,T3,N0,2.35,Positive,No,No
+98,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T3,N0,,Positive,No,No
+24,Female,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade II,Transverse colon,T3,N1,4.7,Positive,No,No
+6,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T3,N1,4.61,Negative,No,No
+25,Female,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N1,2.34,Positive,No,No
+86,Male,Black,Non-Hispanic,Married,Mucinous,Grade III,Overlapping lesion of colon,T3,N0,4.26,Negative,No,No
+70,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Cecum,T4,N0,6.69,Negative,No,No
+67,Male,White,Hispanic,Married,Adenocarcinoma,Grade III,Hepatic flexure of colon,T3,N0,2.69,Positive,Yes,Yes
+83,Male,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N0,2.74,Unknown,Yes,No
+45,Male,White,Non-Hispanic,Married,Mucinous,Grade I,Descending colon,T4,N1,3.56,Positive,No,No
+15,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N1,2.72,Negative,No,No
+94,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade III,Overlapping lesion of colon,T3,N0,8.54,Negative,No,No
+43,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade I,Appendix,T3,N1,8.65,Negative,No,No
+95,Female,White,Hispanic,Married,Mucinous,Grade II,Transverse colon,T4,N0,3.36,Unknown,No,No
+11,Female,Other,Non-Hispanic,Married,Adenocarcinoma,Grade I,Ascending colon,T4,N2,,Negative,No,No
+28,Male,White,Non-Hispanic,Single,Mucinous,Grade I,Overlapping lesion of colon,T3,N0,3.72,Negative,No,No
+8,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N0,3.14,Negative,No,Yes
+45,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Cecum,T2,N1,2.31,Negative,No,No
+71,Male,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade II,Ascending colon,T1,N0,1.97,Positive,No,Yes
+42,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Descending colon,T3,N0,5.37,Positive,No,No
+61,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N0,8.69,Positive,No,Yes
+17,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Rectum,T3,N2,6.49,Negative,Yes,Yes
+51,Female,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T4,N0,3.43,Negative,No,No
+42,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N0,3.26,Positive,Yes,No
+84,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Cecum,T4,N0,5.31,Negative,No,No
+85,Female,White,Hispanic,Married,Adenocarcinoma,Grade III,Ascending colon,T3,N1,4.04,Negative,No,No
+88,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Sigmoid colon,T3,N0,1.74,Unknown,No,No
+51,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T3,N1,4.07,Positive,No,No
+66,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,1.15,Negative,No,Yes
+31,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,2.51,Unknown,No,No
+74,Male,Other,Non-Hispanic,Single,Mucinous,Grade II,Transverse colon,T3,N0,2.06,Negative,Yes,No
+44,Male,White,Hispanic,Single,Adenocarcinoma,Grade II,Descending colon,T3,N0,9.78,Unknown,No,No
+69,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Transverse colon,T3,N1,7.85,Positive,No,Yes
+84,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade I,Ascending colon,T3,N1,4.43,Negative,No,Yes
+90,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T1,N0,2.36,Positive,No,No
+22,Female,Other,Non-Hispanic,Single,Mucinous,Grade II,Ascending colon,T3,N1,3.77,Positive,No,Yes
+64,Female,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N1,5.38,Positive,No,No
+35,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade III,Ascending colon,T3,N0,,Negative,No,No
+2,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Appendix,T3,N0,5.59,Negative,No,Yes
+9,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Cecum,T4,N0,6.75,Unknown,Yes,No
+11,Male,White,Non-Hispanic,Married,Signet ring cell carcinoma,Grade I,Ascending colon,T3,N0,,Positive,No,No
+10,Female,Other,Hispanic,Unknown,Adenocarcinoma,Grade II,Ascending colon,T3,N0,2.99,Positive,Yes,Yes
+56,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N0,3.64,Unknown,No,Yes
+5,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Transverse colon,T4,N0,1.79,Positive,No,Yes
+84,Female,Black,Non-Hispanic,Married,Adenocarcinoma,Grade I,Ascending colon,T2,N0,2.39,Unknown,No,No
+5,Male,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Splenic flexure of colon,T3,N1,2.58,Positive,No,No
+36,Female,White,Non-Hispanic,Single,Mucinous,Grade II,Rectum,T3,N1,1.83,Negative,No,No
+78,Male,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T2,N0,6.42,Negative,No,No
+58,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T4,N0,,Unknown,Yes,No
+4,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Sigmoid colon,T2,N0,,Positive,No,No
+75,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N2,3.35,Unknown,No,No
+15,Male,White,Non-Hispanic,Married,Mucinous,Grade II,Ascending colon,T3,N1,1.42,Unknown,Yes,Yes
+41,Male,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Splenic flexure of colon,T3,N2,8.37,Negative,No,No
+55,Female,White,Non-Hispanic,Married,Mucinous,Grade II,Cecum,T3,N0,,Positive,No,No
+41,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade IV,Transverse colon,T4,N0,,Unknown,No,Yes
+45,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade IV,Hepatic flexure of colon,T3,N0,2.16,Positive,No,Yes
+80,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N2,7.4,Negative,No,No
+12,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T1,N1,2.95,Negative,No,No
+43,Female,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T4,N0,6.03,Positive,No,No
+77,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N0,7.58,Negative,No,No
+5,Female,White,Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N1,3.67,Negative,No,No
+20,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade III,Descending colon,T3,N0,3.2,Unknown,No,Yes
+72,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T4,N2,6.2,Negative,No,No
+4,Female,White,Non-Hispanic,Single,Mucinous,Grade II,Sigmoid colon,T4,N0,2.14,Negative,No,Yes
+87,Female,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade II,Splenic flexure of colon,T3,N1,4.58,Unknown,No,Yes
+18,Male,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Appendix,T3,N2,2.92,Negative,No,No
+27,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Sigmoid colon,T3,N2,3.75,Negative,No,No
+85,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Sigmoid colon,T3,N0,6.21,Positive,Yes,No
+89,Female,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Appendix,T3,N1,,Positive,No,No
+81,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,3.16,Negative,No,No
+49,Male,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Sigmoid colon,T3,N0,,Negative,No,No
+34,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Ascending colon,T3,N1,8.87,Unknown,No,No
+89,Male,White,Non-Hispanic,Unknown,Adenocarcinoma,Grade III,Descending colon,T4,N0,5.68,Negative,No,No
+56,Female,Other,Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T4,N1,2.84,Negative,No,Yes
+8,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Ascending colon,T3,N1,,Negative,No,No
+92,Male,White,Non-Hispanic,Married,Mucinous,Grade I,Ascending colon,T3,N0,,Negative,No,No
+25,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Overlapping lesion of colon,T4,N1,,Negative,No,Yes
+68,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade IV,Descending colon,T3,N0,1.94,Positive,No,No
+9,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade III,Ascending colon,T3,N1,2.46,Negative,No,No
+34,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Cecum,T3,N0,,Negative,No,No
+43,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N0,2.93,Positive,Yes,No
+74,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Transverse colon,T3,N1,1.31,Unknown,No,No
+81,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,3.91,Positive,No,No
+54,Female,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N0,8.22,Positive,No,No
+15,Female,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T3,N0,4.2,Positive,No,No
+66,Female,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T3,N0,3.53,Positive,No,Yes
+58,Male,White,Hispanic,Married,Adenocarcinoma,Grade I,Transverse colon,T3,N0,1.92,Negative,No,No
+29,Male,White,Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T4,N0,4.68,Positive,No,No
+83,Female,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T4,N2,2.42,Unknown,No,No
+72,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Ascending colon,T3,N2,2.51,Unknown,No,No
+66,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Descending colon,T3,N1,6.94,Positive,No,Yes
+99,Male,Other,Non-Hispanic,Single,Adenocarcinoma,Grade II,Sigmoid colon,T2,N1,4.35,Negative,No,No
+48,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Transverse colon,T2,N0,2.53,Negative,No,No
+27,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N0,8.19,Negative,No,No
+27,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade I,Ascending colon,T3,N1,10.26,Negative,No,No
+50,Male,Other,Non-Hispanic,Single,Signet ring cell carcinoma,Grade II,Ascending colon,T3,N0,1.93,Negative,No,No
+18,Male,Other,Non-Hispanic,Single,Adenocarcinoma,Grade III,Ascending colon,T3,N1,7.79,Negative,No,No
+4,Female,Other,Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T1,N0,3.95,Negative,No,No
+28,Female,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N2,2.88,Positive,No,No
+77,Male,Black,Non-Hispanic,Single,Adenocarcinoma,Grade II,Overlapping lesion of colon,T3,N1,2.96,Negative,No,No
+48,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Descending colon,T2,N1,5.74,Negative,No,No
+65,Female,White,Hispanic,Unknown,Adenocarcinoma,Grade II,Ascending colon,T3,N0,5.29,Negative,No,Yes
+88,Female,Other,Non-Hispanic,Married,Adenocarcinoma,Grade II,Appendix,T3,N1,8.29,Negative,No,No
+99,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade IV,Transverse colon,T2,N0,7.87,Positive,No,No
+34,Female,White,Hispanic,Married,Adenocarcinoma,Grade III,Ascending colon,T2,N1,9.27,Positive,No,No
+47,Male,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Sigmoid colon,T3,N1,,Negative,No,No
+76,Female,Other,Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T2,N0,6.96,Negative,No,Yes
+90,Male,White,Non-Hispanic,Married,Mucinous,Grade II,Sigmoid colon,T3,N1,6.53,Negative,No,No
+24,Male,Black,Hispanic,Married,Adenocarcinoma,Grade II,Overlapping lesion of colon,T4,N1,4.92,Negative,No,No
+38,Male,White,Non-Hispanic,Single,Mucinous,Grade I,Sigmoid colon,T3,N2,2.06,Negative,No,No
+13,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Ascending colon,T3,N2,7.52,Negative,No,No
+32,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Descending colon,T3,N0,5.67,Positive,No,No
+80,Male,White,Non-Hispanic,Married,Mucinous,Grade II,Overlapping lesion of colon,T3,N2,2.12,Negative,No,No
+44,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Ascending colon,T3,N1,6.62,Unknown,No,No
+10,Female,White,Non-Hispanic,Single,Adenocarcinoma,Grade II,Appendix,T3,N1,3.56,Negative,No,No
+88,Male,Black,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T3,N1,3.27,Negative,No,No
+33,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Appendix,T3,N0,,Negative,No,No
+66,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Sigmoid colon,T3,N0,4.11,Negative,No,No
+67,Female,White,Non-Hispanic,Married,Signet ring cell carcinoma,Grade III,Ascending colon,T2,N2,3.98,Negative,No,No
+21,Female,White,Non-Hispanic,Married,Adenocarcinoma,Grade I,Cecum,T1,N1,3.31,Negative,No,No
+81,Male,White,Non-Hispanic,Single,Mucinous,Grade II,Ascending colon,T3,N0,4.86,Negative,No,No
+34,Male,White,Non-Hispanic,Married,Adenocarcinoma,Grade II,Cecum,T3,N0,,Negative,No,No

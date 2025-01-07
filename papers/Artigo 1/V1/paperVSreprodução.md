@@ -32,3 +32,8 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 ### Tabela dos Experimentos Reproduzidos
 ![tabela](https://github.com/user-attachments/assets/40a1537a-caaa-4f67-b1e1-3600843e2866)
 
+## O gráfico mostra a importância relativa das variáveis ​​no modelo de floresta aleatória.
+![rf-variavel original](https://github.com/user-attachments/assets/990c080c-66aa-46ff-b84d-10ad8e461fb1)
+
+### Tabela dos Experimentos Reproduzidos
+![rf-variavel reprodução](https://github.com/user-attachments/assets/83380901-3c34-461e-9313-aabafa1062f7)

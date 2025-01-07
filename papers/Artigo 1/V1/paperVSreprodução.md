@@ -18,14 +18,14 @@ Esta análise apresenta uma comparação detalhada entre os resultados obtidos n
 
 ## Gráficos
 
-### Gráficos Reproduzidos
+### Gráficos retirados do artigo
 
 
 ![artigo grafico](https://github.com/user-attachments/assets/35cafe49-36f2-4de5-a1ef-5cec6f038aca)
 
 
-#### Teste e Treino com SMOTE e Undersampling
-![artigo grafico](https://github.com/user-attachments/assets/39ddd0ac-a8b0-4110-b55a-e2d1903dbd66)
+#### Gráficos realizados com a reprodução
+![Uploading artigo grafico 2.png…]()
 
 
 ## Análise das Diferenças

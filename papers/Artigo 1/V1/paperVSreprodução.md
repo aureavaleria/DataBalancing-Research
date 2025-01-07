@@ -25,7 +25,8 @@ Esta análise apresenta uma comparação detalhada entre os resultados obtidos n
 
 
 #### Gráficos realizados com a reprodução
-![Uploading artigo grafico 2.png…]()
+![artigo grafico 2](https://github.com/user-attachments/assets/3be70ffd-4ce1-4620-8322-fa96c0ab9b06)
+
 
 
 ## Análise das Diferenças

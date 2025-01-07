@@ -20,16 +20,13 @@ Esta análise apresenta uma comparação detalhada entre os resultados obtidos n
 
 ### Gráficos Reproduzidos
 
-#### Teste com SMOTE e Undersampling
-![Gráficos Reproduzidos](artigo-grafico.png)
 
-#### Treino com SMOTE e Undersampling
-![Gráficos Reproduzidos](artigo-grafico-2.png)
+![artigo grafico](https://github.com/user-attachments/assets/35cafe49-36f2-4de5-a1ef-5cec6f038aca)
 
-### Gráficos do Artigo Original
 
 #### Teste e Treino com SMOTE e Undersampling
-![Gráficos do Artigo Original](artigo-grafico-original.png)
+![artigo grafico](https://github.com/user-attachments/assets/39ddd0ac-a8b0-4110-b55a-e2d1903dbd66)
+
 
 ## Análise das Diferenças
 

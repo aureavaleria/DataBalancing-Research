@@ -19,10 +19,10 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 ## Gráficos
 
 ### Gráficos do Artigo Original
-<img src="https://github.com/user-attachments/assets/4ef736c5-2af5-4d46-8c1c-e46d9318b846" alt="Descrição da imagem" style="width:300px; height:auto;">
+<img src="https://github.com/user-attachments/assets/4ef736c5-2af5-4d46-8c1c-e46d9318b846" alt="Descrição da imagem" style="width:700px; height:auto;">
 
 ### Gráficos dos Experimentos Reproduzidos
-<img src="https://github.com/user-attachments/assets/1bb7b878-95e1-498a-a491-d36f0a4f4bac" alt="Descrição da imagem" style="width:300px; height:auto;">
+<img src="https://github.com/user-attachments/assets/1bb7b878-95e1-498a-a491-d36f0a4f4bac" alt="Descrição da imagem" style="width:700px; height:auto;">
 ---
 ## Tabelas de Comparação de desempenhos de previsão de diferentes modelos para sobreamostragem.
 

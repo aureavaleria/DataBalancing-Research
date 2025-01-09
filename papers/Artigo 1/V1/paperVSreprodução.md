@@ -31,7 +31,7 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 <img src="https://github.com/user-attachments/assets/bf5659c5-f596-43a7-97a4-7e31ea84a79c" alt="Descrição da imagem" style="width:400px; height:auto;">
 
 ### Tabela dos Experimentos Reproduzidos
-<img src="https://github.com/user-attachments/assets/40a1537a-caaa-4f67-b1e1-3600843e2866" alt="Descrição da imagem" style="width:400px; height:auto;">
+<img src="https://github.com/user-attachments/assets/40a1537a-caaa-4f67-b1e1-3600843e2866" alt="Descrição da imagem" style="width:700px; height:auto;">
 
 
 ## O gráfico mostra a importância relativa das variáveis ​​no modelo de floresta aleatória.

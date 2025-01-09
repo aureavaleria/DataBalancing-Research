@@ -41,3 +41,19 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 ### Tabela dos Experimentos Reproduzidos
 <img src="https://github.com/user-attachments/assets/83380901-3c34-461e-9313-aabafa1062f7" alt="Descrição da imagem" style="width:400px; height:auto;">
 
+## Diferenças Observadas
+
+### Dados e Modelos
+
+- **Particionamento e Pré-processamento**: Pequenas variações na divisão e manipulação dos dados podem causar diferenças.
+- **Hiperparâmetros e Implementação**: Ajustes nos parâmetros e versões de bibliotecas influenciam os resultados.
+
+### Técnicas de Balanceamento
+
+- **SMOTE**: Parâmetros como número de vizinhos podem causar divergências nos dados sintéticos.
+- **Undersampling**: Amostras reduzidas podem exacerbar as diferenças.
+
+### Overfitting
+
+A **AUC=1.0** observada em Random Forest e Decision Tree para o conjunto de treino indica possível overfitting nos experimentos reproduzidos, sugerindo ajustes no controle do modelo.
+

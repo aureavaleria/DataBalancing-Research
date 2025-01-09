@@ -23,17 +23,21 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 
 ### Gráficos dos Experimentos Reproduzidos
 <img src="https://github.com/user-attachments/assets/1bb7b878-95e1-498a-a491-d36f0a4f4bac" alt="Descrição da imagem" style="width:700px; height:auto;">
+
 ---
 ## Tabelas de Comparação de desempenhos de previsão de diferentes modelos para sobreamostragem.
 
 ### Tabela do Artigo Original
-![tabela originaal](https://github.com/user-attachments/assets/bf5659c5-f596-43a7-97a4-7e31ea84a79c)
+<img src="https://github.com/user-attachments/assets/bf5659c5-f596-43a7-97a4-7e31ea84a79c" alt="Descrição da imagem" style="width:400px; height:auto;">
 
 ### Tabela dos Experimentos Reproduzidos
-![tabela](https://github.com/user-attachments/assets/40a1537a-caaa-4f67-b1e1-3600843e2866)
+<img src="https://github.com/user-attachments/assets/40a1537a-caaa-4f67-b1e1-3600843e2866" alt="Descrição da imagem" style="width:400px; height:auto;">
+
 
 ## O gráfico mostra a importância relativa das variáveis ​​no modelo de floresta aleatória.
-![rf-variavel original](https://github.com/user-attachments/assets/990c080c-66aa-46ff-b84d-10ad8e461fb1)
+<img src="https://github.com/user-attachments/assets/990c080c-66aa-46ff-b84d-10ad8e461fb1" alt="Descrição da imagem" style="width:400px; height:auto;">
+
 
 ### Tabela dos Experimentos Reproduzidos
-![rf-variavel reprodução](https://github.com/user-attachments/assets/83380901-3c34-461e-9313-aabafa1062f7)
+<img src="https://github.com/user-attachments/assets/83380901-3c34-461e-9313-aabafa1062f7" alt="Descrição da imagem" style="width:400px; height:auto;">
+

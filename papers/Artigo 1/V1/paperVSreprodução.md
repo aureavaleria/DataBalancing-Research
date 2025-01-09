@@ -57,3 +57,30 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 
 A **AUC=1.0** observada em Random Forest e Decision Tree para o conjunto de treino indica possível overfitting nos experimentos reproduzidos, sugerindo ajustes no controle do modelo.
 
+Tabela do Artigo Original## Diferenças Observadas e Análise Comparativa
+
+### Fatores Influenciadores
+
+Pequenas variações no **particionamento e pré-processamento** dos dados, ajustes de **hiperparâmetros** e diferenças nas versões das bibliotecas utilizadas podem explicar as discrepâncias entre os resultados. Além disso, técnicas de balanceamento como **SMOTE** (afetado por parâmetros como número de vizinhos) e **undersampling** (que pode exacerbar diferenças em amostras reduzidas) impactaram diretamente os modelos. O **overfitting** observado nos experimentos reproduzidos, com AUC=1.0 em Random Forest e Decision Tree no conjunto de treino, destaca a necessidade de controle mais rigoroso nos modelos.
+
+### Análise de Resultados
+
+- **Tabela do Artigo Original**: Resultados consistentes entre as métricas (Accuracy, AUC, Precision, Recall e F1-score). Destaque para:
+  - **Random Forest (RF)**: Maior AUC (0.956), indicando alta capacidade preditiva.
+  - **KNN**: Alta Accuracy (0.852) e AUC (0.899), com boa precisão.
+  - **Decision Tree (DT)**: Menor Recall, sugerindo dificuldades com classes menos representadas.
+
+- **Tabela dos Experimentos Reproduzidos**: Desempenhos inferiores ao artigo original, com destaque para:
+  - **Random Forest**: Recall alto (0.808), mas Precision (0.392) e F1-score (0.528) reduzidos, sugerindo possível overfitting.
+  - **Gradient Boosting**: Resultados mais equilibrados, porém inferiores ao esperado.
+  - **Decision Tree**: Recall mais baixo (0.297), indicando dificuldades em detectar classes positivas.
+
+### Conclusão e Pontos de Melhoria
+
+As diferenças nos resultados podem ser atribuídas a fatores como particionamento dos dados, configurações de hiperparâmetros e variações nas técnicas de balanceamento. Para melhorar, recomenda-se:
+- Refinar os **hiperparâmetros** dos modelos.
+- Revisar o **pipeline de pré-processamento** para maior aderência ao artigo original.
+- Testar **técnicas de balanceamento híbridas** para avaliar seu impacto nos resultados.
+
+Essa análise sugere a importância de ajustes cuidadosos para reproduzir com maior fidelidade os resultados do artigo original e explorar soluções mais robustas para os modelos.
+

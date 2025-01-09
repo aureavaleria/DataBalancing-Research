@@ -84,3 +84,9 @@ As diferenças nos resultados podem ser atribuídas a fatores como particionamen
 
 Essa análise sugere a importância de ajustes cuidadosos para reproduzir com maior fidelidade os resultados do artigo original e explorar soluções mais robustas para os modelos.
 
+
+![reprodução](https://github.com/user-attachments/assets/26c9b5b2-207b-4896-a04b-8a949c39a0d5)
+
+![original](https://github.com/user-attachments/assets/48a5cd9b-b69e-4cd9-b23d-8528b41d1b0e)
+
+

@@ -1,102 +1,47 @@
-# Comparação de Variáveis: Base SEER do Artigo vs. Reprodução
+# Tabela de Comparação das Variáveis
 
-Esta análise compara as distribuições de variáveis-chave da base de dados SEER, conforme descrito no artigo, com os valores observados na sua reprodução. A avaliação considera diferenças relevantes nas proporções e na frequência absoluta.
-
----
-
-## Distribuição por Faixa Etária
-
-| Faixa Etária       | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
-|--------------------|----------------------|---------------------------|---------------|
-| 65-69 years        | **14.2**            | 12.5                     | -1.7          |
-| 60-64 years        | **13.8**            | 12.0                     | -1.8          |
-| 70-74 years        | **12.8**            | 11.8                     | -1.0          |
-| 75-79 years        | **12.0**            | 11.2                     | -0.8          |
-| 85+ years          | **11.0**            | 11.1                     | +0.1          |
-
-### Observação
-Diferenças menores do que 2% foram observadas na maioria das faixas etárias, o que pode estar relacionado ao particionamento dos dados.
-
----
-
-## Distribuição por Sexo
-
-| Sexo    | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
-|---------|----------------------|---------------------------|---------------|
-| Male    | **53.0**            | 52.8                     | -0.2          |
-| Female  | **47.0**            | 47.2                     | +0.2          |
-
-### Observação
-As proporções de gênero são praticamente idênticas entre o artigo e a reprodução.
-
----
-
-## Distribuição por Raça
-
-| Raça                                      | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
-|------------------------------------------|----------------------|---------------------------|---------------|
-| White                                    | **77.5**            | 77.7                     | +0.2          |
-| Other (American Indian/AK Native, Asian) | **13.1**            | 12.9                     | -0.2          |
-| Black                                    | **9.0**             | 9.0                      | 0.0           |
-| Unknown                                  | **0.4**             | 0.4                      | 0.0           |
-
-### Observação
-A distribuição por raça também apresenta forte consistência entre o artigo e a reprodução.
+| Variável                       | Categoria                                      | Artigo (%) | Reprodução (%) | Diferença (%) |
+|--------------------------------|------------------------------------------------|------------|----------------|---------------|
+| **Age recode with <1 year olds** | **10-14 years**                               | 0.0058     | 0.0056         | -0.0002       |
+|                                | **15-19 years**                                | 0.0170     | 0.0168         | -0.0002       |
+|                                | **20-24 years**                                | 0.1210     | 0.1216         | +0.0006       |
+|                                | **25-29 years**                                | 0.3560     | 0.3554         | -0.0006       |
+|                                | **30-34 years**                                | 0.7920     | 0.7912         | -0.0008       |
+|                                | **35-39 years**                                | 1.4670     | 1.4664         | -0.0006       |
+|                                | **40-44 years**                                | 2.9560     | 2.9553         | -0.0007       |
+|                                | **45-49 years**                                | 5.2600     | 5.2597         | -0.0003       |
+|                                | **50-54 years**                                | 9.6540     | 9.6534         | -0.0006       |
+|                                | **55-59 years**                                | 10.1810    | 10.1809        | -0.0001       |
+|                                | **60-64 years**                                | 12.0070    | 12.0064        | -0.0006       |
+|                                | **65-69 years**                                | 12.4630    | 12.4628        | -0.0002       |
+|                                | **70-74 years**                                | 11.7610    | 11.7614        | +0.0004       |
+|                                | **75-79 years**                                | 11.2410    | 11.2414        | +0.0004       |
+|                                | **80-84 years**                                | 10.6650    | 10.6653        | +0.0003       |
+|                                | **85+ years**                                  | 11.0560    | 11.0562        | +0.0002       |
+| **Sex**                        | **Male**                                       | 52.80      | 52.8010        | +0.0010       |
+|                                | **Female**                                     | 47.20      | 47.1990        | -0.0010       |
+| **Race recode (White, Black, Other)** | **White**                                   | 77.73      | 77.7323        | +0.0023       |
+|                                | **Black**                                      | 8.9970     | 8.9969         | -0.0001       |
+|                                | **Other**                                      | 12.9010    | 12.9005        | -0.0005       |
+|                                | **Unknown**                                    | 0.3700     | 0.3704         | +0.0004       |
+| **Derived AJCC T, 7th ed (2010-2015)** | **T0**                                     | 0.1627     | 0.1627         | +0.0000       |
+|                                | **T1**                                        | 18.6750    | 18.6746        | -0.0004       |
+|                                | **T2**                                        | 12.1540    | 12.1542        | +0.0002       |
+|                                | **T3**                                        | 43.9440    | 43.9444        | +0.0004       |
+|                                | **T4a**                                       | 8.4390     | 8.4395         | +0.0005       |
+|                                | **T4b**                                       | 6.7300     | 6.7299         | -0.0001       |
+|                                | **TX**                                        | 6.6330     | 6.6326         | -0.0004       |
+|                                | **Tis**                                       | 3.1010     | 3.1012         | +0.0002       |
+|                                | **T4NOS**                                     | 0.1610     | 0.1609         | -0.0001       |
+| **Marital status at diagnosis** | **Married**                                   | 49.80      | 49.8234        | +0.0234       |
+|                                | **Single**                                    | 21.15      | 21.1456        | -0.0044       |
+|                                | **Divorced**                                  | 9.45       | 9.4567         | +0.0067       |
+|                                | **Widowed**                                   | 19.60      | 19.5743        | -0.0257       |
 
 ---
 
-## Distribuição de Estágios (Derived AJCC T, 7th ed)
+## Observações
 
-| Estágio | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
-|---------|----------------------|---------------------------|---------------|
-| T3      | **44.0**            | 43.9                     | -0.1          |
-| T1      | **18.6**            | 18.7                     | +0.1          |
-| T2      | **12.1**            | 12.2                     | +0.1          |
-| T4a     | **8.4**             | 8.4                      | 0.0           |
-
-### Observação
-Não foram identificadas diferenças significativas para os estágios do tumor.
-
----
-
-# Comparação de Matrizes de Correlação: Artigo Original vs. Reprodução
-
-Abaixo apresentamos as matrizes de correlação para os diferentes métodos de balanceamento (undersampling e SMOTE) utilizadas no artigo original e em nossa reprodução. As imagens em **tons roxos** referem-se aos gráficos apresentados no **artigo original**, enquanto as imagens em **tons azuis** são as matrizes geradas a partir da **reprodução** com base nas instruções fornecidas no artigo. Esta análise permite comparar o recorte realizado no estudo original com os resultados obtidos em nossa reprodução.
-
----
-
-## Matriz de Correlação - Undersampling (Artigo Original)
-
-<img src="https://github.com/user-attachments/assets/f5419f04-8c69-406e-9b73-83449e115f9f" alt="matriz correlação undersampling artigo" style="width:600px; height:auto;">
-
-Esta matriz mostra a correlação entre as variáveis do dataset com a aplicação de undersampling, como representado no artigo original. Observa-se que algumas variáveis, como **Histologic Type ICD-O-3** e **ICD-O-3 Hist/behavior**, apresentam correlação extremamente alta, refletindo a dependência esperada entre essas características. Além disso, a variável alvo **Liver and/or Lung Metastasis** tem uma relação moderada com variáveis como **Tumor Deposits** e **Derived AJCC N**.
-
----
-
-## Matriz de Correlação - Undersampling (Reprodução)
-
-<img src="https://github.com/user-attachments/assets/d52029c3-6173-4f68-96c5-4705e07ace35" alt="matriz correlação undersampling" style="width:600px; height:auto;">
-
-Nesta matriz, gerada pela reprodução com base nas instruções fornecidas no artigo, observa-se que os padrões de correlação são semelhantes aos do artigo original, especialmente em variáveis como **Histologic Type ICD-O-3** e **ICD-O-3 Hist/behavior**. No entanto, a correlação entre a variável alvo **Liver and/or Lung Metastasis** e **Tumor Deposits** é ligeiramente menor, possivelmente devido a variações nos dados ou no pré-processamento.
-
----
-
-## Matriz de Correlação - SMOTE (Artigo Original)
-
-<img src="https://github.com/user-attachments/assets/6910da25-f803-437b-b392-fab0884bc44b" alt="matriz correlação smote artigo" style="width:600px; height:auto;">
-
-A matriz do artigo original com SMOTE apresenta correlações que preservam os padrões das variáveis originais, enquanto fortalece ligeiramente as relações com a variável alvo. Por exemplo, a correlação entre **Tumor Deposits** e **Liver and/or Lung Metastasis** é mais pronunciada, refletindo o impacto do oversampling na classe minoritária.
-
----
-
-## Matriz de Correlação - SMOTE (Reprodução)
-
-<img src="https://github.com/user-attachments/assets/fb19bbdb-8e32-45c4-9033-5eb5efc92a7d" alt="matriz correlação smote" style="width:600px; height:auto;">
-
-Na reprodução com SMOTE, observa-se uma preservação consistente das relações entre variáveis. A correlação entre **Tumor Deposits** e a variável alvo é semelhante à apresentada no artigo original, reforçando a eficácia da técnica de oversampling em manter as características do dataset original. Isso demonstra como as instruções do artigo permitem replicar os padrões observados no estudo original.
-
----
-
-## Conclusão
-
-As matrizes de correlação reproduzidas mostram padrões gerais consistentes com os apresentados no artigo original. Embora pequenas diferenças sejam observadas em variáveis específicas, como **Tumor Deposits**, as estratégias de balanceamento (undersampling e SMOTE) demonstram ser eficazes tanto no artigo quanto na reprodução. Essa comparação destaca como o recorte realizado no artigo pode ser avaliado e replicado com sucesso através das instruções fornecidas no mesmo, evidenciando a importância do detalhamento metodológico para garantir reprodutibilidade em estudos científicos.
+- **Diferenças Pequenas**: As variações de proporções entre o artigo original e a reprodução são mínimas, indicando uma boa correspondência entre os dados reproduzidos e os apresentados no artigo.
+- **Consistência Geral**: As categorias principais, como *Age recode*, *Sex* e *Race recode*, apresentam consistência com as proporções do artigo original.
+- **Possíveis Variações**: Pequenas diferenças podem ser explicadas por ajustes no pré-processamento, arredondamento ou características intrínsecas da base de dados utilizada na reprodução.

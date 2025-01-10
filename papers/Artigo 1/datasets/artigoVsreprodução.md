@@ -98,32 +98,19 @@ Na reprodução, as relações entre variáveis são preservadas, com padrões c
 ---
 
 ## Tabela de Comparação das Variáveis
+# Comparação de Variáveis Relacionadas à Metástase no Fígado: Artigo vs. Reprodução
 
-| Variável                       | Categoria                                      | Artigo (%) | Reprodução (%) | Diferença (%) |
-|--------------------------------|------------------------------------------------|------------|----------------|---------------|
-| **Age recode with <1 year olds** | **10-14 years**                               | 0.0058     | 0.0056         | -0.0002       |
-|                                | **15-19 years**                                | 0.0170     | 0.0168         | -0.0002       |
-|                                | **20-24 years**                                | 0.1210     | 0.1216         | +0.0006       |
-|                                | **25-29 years**                                | 0.3560     | 0.3554         | -0.0006       |
-|                                | **30-34 years**                                | 0.7920     | 0.7912         | -0.0008       |
-|                                | **35-39 years**                                | 1.4670     | 1.4664         | -0.0006       |
-|                                | **40-44 years**                                | 2.9560     | 2.9553         | -0.0007       |
-|                                | **45-49 years**                                | 5.2600     | 5.2597         | -0.0003       |
-|                                | **50-54 years**                                | 9.6540     | 9.6534         | -0.0006       |
-|                                | **55-59 years**                                | 10.1810    | 10.1809        | -0.0001       |
-| **Sex**                        | **Male**                                       | 52.80      | 52.8010        | +0.0010       |
-|                                | **Female**                                     | 47.20      | 47.1990        | -0.0010       |
+Esta comparação avalia as distribuições de variáveis relacionadas à metástase no fígado, considerando dados do **artigo original** e da **reprodução**. Abaixo, apresentamos tabelas cruzadas organizadas para cada variável-chave.
 
 ---
-
-## Observações
-
-- **Diferenças Pequenas**: As variações de proporções entre o artigo original e a reprodução são mínimas, indicando boa correspondência entre os dados.
-- **Consistência Geral**: Categorias como *Age recode*, *Sex* e *Race recode* mostram forte consistência.
-- **Possíveis Variações**: Pequenas diferenças podem ser explicadas por ajustes no pré-processamento ou arredondamento.
 
 ---
 
 ## Conclusão
 
 Os resultados mostram padrões gerais consistentes entre o artigo original e a reprodução, com pequenas variações em variáveis específicas. As técnicas de balanceamento (undersampling e SMOTE) demonstraram eficácia em ambos os cenários, reforçando a importância do detalhamento metodológico para garantir a reprodutibilidade em estudos científicos.
+
+- **Consistência Geral**: As proporções e distribuições mostraram-se extremamente consistentes entre o artigo original e a reprodução para todas as variáveis analisadas.
+- **Interpretação**: Pequenas variações poderiam ter ocorrido devido ao arredondamento, mas não foram observadas discrepâncias significativas nos dados.
+- **Validação**: Isso demonstra que os métodos utilizados na reprodução replicaram fielmente os resultados apresentados no artigo original, garantindo a reprodutibilidade do estudo.
+

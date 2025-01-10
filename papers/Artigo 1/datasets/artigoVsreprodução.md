@@ -96,8 +96,6 @@ Com o uso de SMOTE, a matriz do artigo fortalece relações com a variável alvo
 Na reprodução, as relações entre variáveis são preservadas, com padrões consistentes com os do artigo original, reforçando a eficácia da técnica.
 
 ---
-
-## Tabela de Comparação das Variáveis
 # Comparação de Variáveis Relacionadas à Metástase no Fígado: Artigo vs. Reprodução
 
 Esta comparação avalia as distribuições de variáveis relacionadas à metástase no fígado, considerando dados do **artigo original** e da **reprodução**. Abaixo, apresentamos tabelas cruzadas organizadas para cada variável-chave.

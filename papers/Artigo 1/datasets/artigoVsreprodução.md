@@ -102,15 +102,81 @@ Na reprodução, as relações entre variáveis são preservadas, com padrões c
 
 Esta comparação avalia as distribuições de variáveis relacionadas à metástase no fígado, considerando dados do **artigo original** e da **reprodução**. Abaixo, apresentamos tabelas cruzadas organizadas para cada variável-chave.
 
+# Comparação entre a Tabela 2 e as Tabelas de Contingência
+
+## Comparação Geral
+
+Os dados apresentados na **Tabela 2** e nas **Tabelas de Contingência** são consistentes em muitos aspectos, mas algumas diferenças específicas foram observadas. Abaixo, destacamos as principais comparações entre as categorias.
+
 ---
+
+## Comparação de Idade
+
+| Categoria de Idade | Com Metástase (Tabela 2) | Sem Metástase (Tabela 2) | Contingência Binary Mets: 1 (%) | Contingência Binary Mets: 0 (%) |
+|--------------------|--------------------------|--------------------------|---------------------------------|---------------------------------|
+| <60               | 27.2%                   | 31.2%                   | 26.9%                          | 31.3%                          |
+| ≥60               | 72.8%                   | 68.8%                   | 73.1%                          | 68.7%                          |
+
+**Observação:** A distribuição de idade entre as duas tabelas é praticamente consistente, com diferenças mínimas atribuídas ao arredondamento ou ao recorte dos dados.
+
+---
+
+## Comparação de Sexo
+
+| Sexo      | Com Metástase (Tabela 2) | Sem Metástase (Tabela 2) | Contingência Binary Mets: 1 (%) | Contingência Binary Mets: 0 (%) |
+|-----------|--------------------------|--------------------------|---------------------------------|---------------------------------|
+| Feminino | 47.4%                   | 47.3%                   | 43.4%                          | 47.9%                          |
+| Masculino | 52.6%                   | 52.7%                   | 56.6%                          | 52.1%                          |
+
+**Observação:** Pequenas diferenças foram encontradas na distribuição por sexo. No entanto, o padrão geral permanece alinhado.
+
+---
+
+## Comparação de Raça
+
+| Raça       | Com Metástase (Tabela 2) | Sem Metástase (Tabela 2) | Contingência Binary Mets: 1 (%) | Contingência Binary Mets: 0 (%) |
+|------------|--------------------------|--------------------------|---------------------------------|---------------------------------|
+| Branca    | 77.9%                   | 77.8%                   | 78.3%                          | 78.2%                          |
+| Negra     | 9.4%                    | 8.9%                    | 9.6%                           | 9.2%                           |
+| Outras    | 12.7%                   | 13.3%                   | 12.1%                          | 12.6%                          |
+
+**Observação:** A proporção de raça é altamente consistente entre as tabelas, com desvios mínimos.
+
+---
+
+## Comparação de Estágio T (Derived AJCC T)
+
+| Estágio T | Com Metástase (Tabela 2) | Sem Metástase (Tabela 2) | Contingência Binary Mets: 1 (%) | Contingência Binary Mets: 0 (%) |
+|-----------|--------------------------|--------------------------|---------------------------------|---------------------------------|
+| T1        | 12.2%                   | 20.6%                   | 11.1%                          | 19.9%                          |
+| T2        | 8.0%                    | 13.3%                   | 7.3%                           | 13.5%                          |
+| T3        | 42.9%                   | 45.8%                   | 44.3%                          | 44.8%                          |
+| T4        | 24.0%                   | 14.4%                   | 26.5%                          | 12.9%                          |
+| TX        | 12.9%                   | 5.9%                    | 10.8%                          | 8.9%                           |
+
+**Observação:** As distribuições dos estágios T são semelhantes, com algumas variações na proporção de TX entre as tabelas.
+
+---
+
+## Comparação de Grau
+
+| Grau        | Com Metástase (Tabela 2) | Sem Metástase (Tabela 2) | Contingência Binary Mets: 1 (%) | Contingência Binary Mets: 0 (%) |
+|-------------|--------------------------|--------------------------|---------------------------------|---------------------------------|
+| Grau I     | 5.9%                    | 7.7%                    | 4.8%                           | 7.6%                           |
+| Grau II    | 58.7%                   | 66.8%                   | 59.4%                          | 65.4%                          |
+| Grau III   | 18.3%                   | 13.5%                   | 18.5%                          | 14.2%                          |
+| Grau IV    | 3.6%                    | 2.6%                    | 3.9%                           | 2.4%                           |
+| Desconhecido | 13.5%                  | 9.4%                    | 13.4%                          | 10.3%                          |
+
+**Observação:** As proporções de Grau II e Grau III são próximas entre as tabelas, mas diferenças foram notadas nas categorias desconhecidas.
 
 ---
 
 ## Conclusão
+- Os resultados mostram padrões gerais consistentes entre o artigo original e a reprodução, com pequenas variações em variáveis específicas. As técnicas de balanceamento (undersampling e SMOTE) demonstraram eficácia em ambos os cenários, reforçando a importância do detalhamento metodológico para garantir a reprodutibilidade em estudos científicos.
+- **Consistência Geral:** As tabelas apresentaram padrões similares, com variações mínimas atribuídas ao particionamento e ao arredondamento dos dados.
+- **Destaques:** As variáveis *Idade*, *Sexo*, *Raça* e *Estágio T* são consistentes entre os dois conjuntos de tabelas. Pequenas variações foram observadas em categorias mais específicas, como *Grau* e *TX*.
+- **Variações:** Diferenças observadas podem ser atribuídas a diferenças na amostragem ou na metodologia de pré-processamento entre o estudo original e as análises realizadas.
 
-Os resultados mostram padrões gerais consistentes entre o artigo original e a reprodução, com pequenas variações em variáveis específicas. As técnicas de balanceamento (undersampling e SMOTE) demonstraram eficácia em ambos os cenários, reforçando a importância do detalhamento metodológico para garantir a reprodutibilidade em estudos científicos.
 
-- **Consistência Geral**: As proporções e distribuições mostraram-se extremamente consistentes entre o artigo original e a reprodução para todas as variáveis analisadas.
-- **Interpretação**: Pequenas variações poderiam ter ocorrido devido ao arredondamento, mas não foram observadas discrepâncias significativas nos dados.
-- **Validação**: Isso demonstra que os métodos utilizados na reprodução replicaram fielmente os resultados apresentados no artigo original, garantindo a reprodutibilidade do estudo.
 

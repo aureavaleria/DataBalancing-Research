@@ -1,3 +1,64 @@
+# Comparação de Variáveis: Base SEER do Artigo vs. Reprodução
+
+Esta análise compara as distribuições de variáveis-chave da base de dados SEER, conforme descrito no artigo, com os valores observados na sua reprodução. A avaliação considera diferenças relevantes nas proporções e na frequência absoluta.
+
+---
+
+## Distribuição por Faixa Etária
+
+| Faixa Etária       | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
+|--------------------|----------------------|---------------------------|---------------|
+| 65-69 years        | **14.2**            | 12.5                     | -1.7          |
+| 60-64 years        | **13.8**            | 12.0                     | -1.8          |
+| 70-74 years        | **12.8**            | 11.8                     | -1.0          |
+| 75-79 years        | **12.0**            | 11.2                     | -0.8          |
+| 85+ years          | **11.0**            | 11.1                     | +0.1          |
+
+### Observação
+Diferenças menores do que 2% foram observadas na maioria das faixas etárias, o que pode estar relacionado ao particionamento dos dados.
+
+---
+
+## Distribuição por Sexo
+
+| Sexo    | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
+|---------|----------------------|---------------------------|---------------|
+| Male    | **53.0**            | 52.8                     | -0.2          |
+| Female  | **47.0**            | 47.2                     | +0.2          |
+
+### Observação
+As proporções de gênero são praticamente idênticas entre o artigo e a reprodução.
+
+---
+
+## Distribuição por Raça
+
+| Raça                                      | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
+|------------------------------------------|----------------------|---------------------------|---------------|
+| White                                    | **77.5**            | 77.7                     | +0.2          |
+| Other (American Indian/AK Native, Asian) | **13.1**            | 12.9                     | -0.2          |
+| Black                                    | **9.0**             | 9.0                      | 0.0           |
+| Unknown                                  | **0.4**             | 0.4                      | 0.0           |
+
+### Observação
+A distribuição por raça também apresenta forte consistência entre o artigo e a reprodução.
+
+---
+
+## Distribuição de Estágios (Derived AJCC T, 7th ed)
+
+| Estágio | Proporção (%) Artigo | Proporção (%) Reprodução | Diferença (%) |
+|---------|----------------------|---------------------------|---------------|
+| T3      | **44.0**            | 43.9                     | -0.1          |
+| T1      | **18.6**            | 18.7                     | +0.1          |
+| T2      | **12.1**            | 12.2                     | +0.1          |
+| T4a     | **8.4**             | 8.4                      | 0.0           |
+
+### Observação
+Não foram identificadas diferenças significativas para os estágios do tumor.
+
+---
+
 # Comparação de Matrizes de Correlação: Artigo Original vs. Reprodução
 
 Abaixo apresentamos as matrizes de correlação para os diferentes métodos de balanceamento (undersampling e SMOTE) utilizadas no artigo original e em nossa reprodução. As imagens em **tons roxos** referem-se aos gráficos apresentados no **artigo original**, enquanto as imagens em **tons azuis** são as matrizes geradas a partir da **reprodução** com base nas instruções fornecidas no artigo. Esta análise permite comparar o recorte realizado no estudo original com os resultados obtidos em nossa reprodução.

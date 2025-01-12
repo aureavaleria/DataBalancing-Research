@@ -77,6 +77,10 @@ A tabela acima compara os desempenhos de diferentes modelos de aprendizado de m�
 <img src="https://github.com/user-attachments/assets/83380901-3c34-461e-9313-aabafa1062f7" alt="Descrição da imagem" style="width:400px; height:auto;">
 
 
+Os dois gráficos apresentam a importância das variáveis no modelo Random Forest. Ambos concordam que **Tumor Deposits** é a variável mais relevante. No entanto, há divergências nas classificações intermediárias:
+
+- **Reprodução:** Prioriza variáveis como **Derived AJCC N** e concentra a importância no top 3.
+- **Original:** Distribui a importância de forma mais equilibrada, destacando **Primary Tumor Site** e **Grade**.
 
 
 ## Análise Comparativa

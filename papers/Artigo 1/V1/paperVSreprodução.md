@@ -12,6 +12,18 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 ### Gráficos dos Experimentos Reproduzidos
 <img src="https://github.com/user-attachments/assets/1bb7b878-95e1-498a-a491-d36f0a4f4bac" alt="Descrição da imagem" style="width:700px; height:auto;">
 
+### Análise de Resultados
+
+- **Gráfico do Artigo Original**: Resultados consistentes entre as métricas (Accuracy, AUC, Precision, Recall e F1-score). Destaque para:
+  - **Random Forest (RF)**: Maior AUC (0.956), indicando alta capacidade preditiva.
+  - **KNN**: Alta Accuracy (0.852) e AUC (0.899), com boa precisão.
+  - **Decision Tree (DT)**: Menor Recall, sugerindo dificuldades com classes menos representadas.
+
+- **Gráfico dos Experimentos Reproduzidos**: Desempenhos inferiores ao artigo original, com destaque para:
+  - **Random Forest**: Recall alto (0.808), mas Precision (0.392) e F1-score (0.528) reduzidos, sugerindo possível overfitting.
+  - **Gradient Boosting**: Resultados mais equilibrados, porém inferiores ao esperado.
+  - **Decision Tree**: Recall mais baixo (0.297), indicando dificuldades em detectar classes positivas.
+
 ---
 ## Tabelas de Comparação de desempenhos de previsão de diferentes modelos para sobreamostragem.
 
@@ -33,39 +45,7 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 ### Tabela dos Experimentos Reproduzidos
 <img src="https://github.com/user-attachments/assets/83380901-3c34-461e-9313-aabafa1062f7" alt="Descrição da imagem" style="width:400px; height:auto;">
 
-## Diferenças Observadas
 
-### Dados e Modelos
-
-- **Particionamento e Pré-processamento**: Pequenas variações na divisão e manipulação dos dados podem causar diferenças.
-- **Hiperparâmetros e Implementação**: Ajustes nos parâmetros e versões de bibliotecas influenciam os resultados.
-
-### Técnicas de Balanceamento
-
-- **SMOTE**: Parâmetros como número de vizinhos podem causar divergências nos dados sintéticos.
-- **Undersampling**: Amostras reduzidas podem exacerbar as diferenças.
-
-### Overfitting
-
-A **AUC=1.0** observada em Random Forest e Decision Tree para o conjunto de treino indica possível overfitting nos experimentos reproduzidos, sugerindo ajustes no controle do modelo.
-
-Tabela do Artigo Original## Diferenças Observadas e Análise Comparativa
-
-### Fatores Influenciadores
-
-Pequenas variações no **particionamento e pré-processamento** dos dados, ajustes de **hiperparâmetros** e diferenças nas versões das bibliotecas utilizadas podem explicar as discrepâncias entre os resultados. Além disso, técnicas de balanceamento como **SMOTE** (afetado por parâmetros como número de vizinhos) e **undersampling** (que pode exacerbar diferenças em amostras reduzidas) impactaram diretamente os modelos. O **overfitting** observado nos experimentos reproduzidos, com AUC=1.0 em Random Forest e Decision Tree no conjunto de treino, destaca a necessidade de controle mais rigoroso nos modelos.
-
-### Análise de Resultados
-
-- **Tabela do Artigo Original**: Resultados consistentes entre as métricas (Accuracy, AUC, Precision, Recall e F1-score). Destaque para:
-  - **Random Forest (RF)**: Maior AUC (0.956), indicando alta capacidade preditiva.
-  - **KNN**: Alta Accuracy (0.852) e AUC (0.899), com boa precisão.
-  - **Decision Tree (DT)**: Menor Recall, sugerindo dificuldades com classes menos representadas.
-
-- **Tabela dos Experimentos Reproduzidos**: Desempenhos inferiores ao artigo original, com destaque para:
-  - **Random Forest**: Recall alto (0.808), mas Precision (0.392) e F1-score (0.528) reduzidos, sugerindo possível overfitting.
-  - **Gradient Boosting**: Resultados mais equilibrados, porém inferiores ao esperado.
-  - **Decision Tree**: Recall mais baixo (0.297), indicando dificuldades em detectar classes positivas.
 
 
 ## Análise Comparativa
@@ -92,6 +72,20 @@ Pequenas variações no **particionamento e pré-processamento** dos dados, ajus
 
 - **Curvas ROC**: No gráfico original, as curvas ROC mostram alta separação entre classes, enquanto os reproduzidos exibem degradação de desempenho em ambientes externos.
 - **Precision-Recall**: O gráfico reproduzido para a base externa tem precisão reduzida, indicando problemas no balanceamento ou na adequação do modelo.
+
+## Diferenças Observadas
+
+### Dados e Modelos
+
+- **Particionamento e Pré-processamento**: Pequenas variações na divisão e manipulação dos dados podem causar diferenças.
+- **Hiperparâmetros e Implementação**: Ajustes nos parâmetros e versões de bibliotecas influenciam os resultados.
+
+### Overfitting
+
+A **AUC=1.0** observada em Random Forest e Decision Tree para o conjunto de treino indica possível overfitting nos experimentos reproduzidos, sugerindo ajustes no controle do modelo.
+
+Tabela do Artigo Original## Diferenças Observadas e Análise Comparativa
+
 
   ### Conclusão e Pontos de Melhoria
 

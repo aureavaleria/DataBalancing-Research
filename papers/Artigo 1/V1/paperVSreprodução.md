@@ -15,11 +15,18 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 ---
 ## Tabelas de Comparação de desempenhos de previsão de diferentes modelos para sobreamostragem.
 
-### Tabela do Artigo Original
-<img src="https://github.com/user-attachments/assets/bf5659c5-f596-43a7-97a4-7e31ea84a79c" alt="Descrição da imagem" style="width:400px; height:auto;">
+| Model           | Accuracy (Original) | AUC (Original) | Precision (Original) | Recall (Original) | F1-score (Original) | Accuracy (Reproduced) | AUC (Reproduced) | Precision (Reproduced) | Recall (Reproduced) | F1-score (Reproduced) |
+|------------------|---------------------|----------------|-----------------------|-------------------|---------------------|-----------------------|------------------|-------------------------|---------------------|-----------------------|
+| SVM             | 0.785               | 0.857          | 0.771                | 0.807            | 0.788              | 0.754                 | 0.842            | 0.351                  | 0.786              | 0.485                |
+| KNN             | 0.852               | 0.890          | 0.818                | 0.902            | 0.819              | 0.713                 | 0.779            | 0.309                  | 0.758              | 0.439                |
+| DT              | 0.741               | 0.920          | 0.906                | 0.890            | 0.897              | NaN                   | NaN              | NaN                    | NaN                | NaN                  |
+| NB              | 0.737               | 0.773          | 0.750                | 0.705            | 0.727              | NaN                   | NaN              | NaN                    | NaN                | NaN                  |
+| RF              | 0.895               | 0.954          | 0.929                | 0.944            | 0.936              | NaN                   | NaN              | NaN                    | NaN                | NaN                  |
+| XGBoost         | 0.809               | 0.883          | 0.795                | 0.828            | 0.811              | 0.784                 | 0.856            | 0.386                  | 0.806              | 0.524                |
+| GBM             | 0.773               | 0.849          | 0.774                | 0.774            | 0.772              | 0.795                 | 0.887            | 0.405                  | 0.817              | 0.541                |
+| Random Forest   | NaN                 | NaN            | NaN                  | NaN              | NaN                | 0.786                 | 0.878            | 0.392                  | 0.808              | 0.528                |
+| Decision Tree   | NaN                 | NaN            | NaN                  | NaN              | NaN                | 0.708                 | 0.709            | 0.297                  | 0.710              | 0.419                |
 
-### Tabela dos Experimentos Reproduzidos
-<img src="https://github.com/user-attachments/assets/40a1537a-caaa-4f67-b1e1-3600843e2866" alt="Descrição da imagem" style="width:700px; height:auto;">
 
 
 ## O gráfico mostra a importância relativa das variáveis ​​no modelo de floresta aleatória.

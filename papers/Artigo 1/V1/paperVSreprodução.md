@@ -67,7 +67,33 @@ Pequenas variações no **particionamento e pré-processamento** dos dados, ajus
   - **Gradient Boosting**: Resultados mais equilibrados, porém inferiores ao esperado.
   - **Decision Tree**: Recall mais baixo (0.297), indicando dificuldades em detectar classes positivas.
 
-### Conclusão e Pontos de Melhoria
+
+## Análise Comparativa
+
+## Gráfico Reproduzido
+
+<img src="https://github.com/user-attachments/assets/26c9b5b2-207b-4896-a04b-8a949c39a0d5" alt="Descrição da imagem" style="width:700px; height:auto;">
+
+## Gráfico original
+<img src="https://github.com/user-attachments/assets/48a5cd9b-b69e-4cd9-b23d-8528b41d1b0e" alt="Descrição da imagem" style="width:700px; height:auto;">
+
+
+### AUC em Curvas ROC
+
+- **Original**: AUC alcançando 0.9127 para Random Forest, refletindo um desempenho superior.
+- **Reproduzido**: Na base interna, o AUC é de 0.8814, apresentando ligeira perda. Para a base externa, o AUC é de 0.6111, indicando problemas de generalização do modelo.
+
+### AUC em Precision-Recall Curve
+
+- **Original**: Valores de 0.896 e 0.611 foram reportados para diferentes cenários.
+- **Reproduzido**: Precision-Recall Curve para a base interna apresentou AUC de 0.6120, semelhante à parte C do original. Na base externa, o AUC é extremamente baixo (0.2494), sinalizando dificuldades.
+
+### Comportamento das Curvas
+
+- **Curvas ROC**: No gráfico original, as curvas ROC mostram alta separação entre classes, enquanto os reproduzidos exibem degradação de desempenho em ambientes externos.
+- **Precision-Recall**: O gráfico reproduzido para a base externa tem precisão reduzida, indicando problemas no balanceamento ou na adequação do modelo.
+
+  ### Conclusão e Pontos de Melhoria
 
 As diferenças nos resultados podem ser atribuídas a fatores como particionamento dos dados, configurações de hiperparâmetros e variações nas técnicas de balanceamento. Para melhorar, recomenda-se:
 - Refinar os **hiperparâmetros** dos modelos.
@@ -75,11 +101,3 @@ As diferenças nos resultados podem ser atribuídas a fatores como particionamen
 - Testar **técnicas de balanceamento híbridas** para avaliar seu impacto nos resultados.
 
 Essa análise sugere a importância de ajustes cuidadosos para reproduzir com maior fidelidade os resultados do artigo original e explorar soluções mais robustas para os modelos.
-
-
-<img src="https://github.com/user-attachments/assets/26c9b5b2-207b-4896-a04b-8a949c39a0d5" alt="Descrição da imagem" style="width:700px; height:auto;">
-
-
-<img src="https://github.com/user-attachments/assets/48a5cd9b-b69e-4cd9-b23d-8528b41d1b0e" alt="Descrição da imagem" style="width:700px; height:auto;">
-
-

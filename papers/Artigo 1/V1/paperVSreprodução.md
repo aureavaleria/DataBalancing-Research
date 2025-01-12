@@ -38,6 +38,37 @@ A tabela abaixo apresenta uma comparação dos valores de AUC para diferentes al
 | Gradient Boosting| 0.773               | 0.849          | 0.774                | 0.774            | 0.772              | 0.795                 | 0.887            | 0.405                  | 0.817              | 0.541                |
 
 
+### Análise Comparativa: Modelos de Previsão para Sobreamostragem
+
+A tabela acima compara os desempenhos de diferentes modelos de aprendizado de máquina no contexto de sobreamostragem, avaliando métricas como Accuracy, AUC, Precision, Recall e F1-score entre os resultados originais e reproduzidos. Aqui está uma análise detalhada:
+
+---
+
+### 1. **Desempenho Geral**
+   - **Random Forest (RF)**: No conjunto original, RF apresentou os melhores resultados gerais com um AUC de 0.954, indicando excelente separação de classes. Nos experimentos reproduzidos, houve uma significativa perda de desempenho nas métricas de precisão (Precision) e F1-score, com uma queda de mais de 50%. Isso sugere possível **overfitting** nos experimentos reproduzidos.
+   - **Decision Tree (DT)**: O modelo original também teve desempenho satisfatório (AUC de 0.920 e F1-score de 0.897). Nos experimentos reproduzidos, houve uma forte redução no Precision (0.297), resultando em um F1-score reduzido (0.419), apontando para dificuldades em identificar classes minoritárias.
+   - **Support Vector Machine (SVM)**: Apresenta desempenho equilibrado nos dados originais, com AUC de 0.857 e F1-score de 0.788. Na reprodução, o AUC (0.842) e o Recall (0.786) permaneceram estáveis, mas houve perda significativa em Precision, afetando negativamente o F1-score.
+   - **Naive Bayes (NB)**: O modelo manteve resultados consistentes em AUC (0.773) e Recall (0.770) entre os cenários original e reproduzido. No entanto, Precision caiu para 0.273, prejudicando o F1-score.
+   - **K-Nearest Neighbors (KNN)**: Demonstrou bom desempenho no conjunto original (Accuracy de 0.852 e AUC de 0.890), mas houve redução em todas as métricas no cenário reproduzido, especialmente Precision (0.309) e F1-score (0.439).
+   - **XGBoost**: Consistiu em um dos modelos mais estáveis, com desempenho próximo entre os resultados originais (AUC de 0.883) e reproduzidos (AUC de 0.856). Apesar disso, o Precision caiu consideravelmente, resultando em menor F1-score nos dados reproduzidos.
+   - **Gradient Boosting**: Apresentou os resultados mais equilibrados entre os modelos, com ligeira melhoria em AUC no cenário reproduzido (0.849 para 0.887). Embora Precision também tenha caído, o impacto no F1-score foi menos severo.
+
+---
+
+### 2. **Métricas de Desempenho Específicas**
+   - **AUC**: O AUC no conjunto reproduzido foi consistentemente inferior ao original, indicando uma redução na capacidade geral dos modelos de distinguir entre classes. Esta queda foi mais acentuada em Random Forest (-0.076) e Decision Tree (-0.211).
+   - **Precision**: Precision caiu drasticamente na maioria dos modelos reproduzidos, sugerindo que os experimentos sofreram com falsos positivos. Esta métrica foi especialmente crítica em Decision Tree (-0.609) e Naive Bayes (-0.477).
+   - **Recall**: O Recall foi menos afetado em comparação à Precision, refletindo uma razoável capacidade de identificar a classe positiva. No entanto, houve quedas significativas em Random Forest e KNN.
+   - **F1-Score**: Como métrica que equilibra Precision e Recall, o F1-score caiu em todos os modelos reproduzidos, com impacto mais significativo em Random Forest, Decision Tree e KNN.
+
+---
+
+### 3. **Modelos com Melhor Estabilidade**
+   - **Gradient Boosting**: Apresentou a menor diferença geral entre os cenários original e reproduzido, sugerindo maior robustez frente a variações no pipeline de treinamento.
+   - **XGBoost**: Embora tenha apresentado quedas, manteve boa estabilidade nas métricas principais (AUC, Recall e F1-score).
+
+
+
 ## O gráfico mostra a importância relativa das variáveis ​​no modelo de floresta aleatória.
 <img src="https://github.com/user-attachments/assets/990c080c-66aa-46ff-b84d-10ad8e461fb1" alt="Descrição da imagem" style="width:400px; height:auto;">
 

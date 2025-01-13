@@ -41,10 +41,3 @@ Cada arquivo representa uma técnica de balanceamento específica:
 - **`Versão_4_(comparação_balanceamento_smote_manual).ipynb`**:
   Implementação manual do SMOTE para melhor controle sobre os parâmetros e comportamento do método.
 
-
-## Objetivo
-
-O objetivo principal desta análise é comparar as técnicas de balanceamento quanto à sua capacidade de:
-1. Melhorar as métricas de desempenho em modelos como Decision Tree, Random Forest, SVM, Naive Bayes, KNN, XGBoost e Gradient Boosting.
-2. Identificar cenários em que cada técnica é mais eficaz, considerando datasets desbalanceados e os desafios relacionados.
-

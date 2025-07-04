@@ -10,7 +10,13 @@ Ela oferece uma ampla variedade de técnicas de oversampling (aumentar classe mi
 Você pode instalar a biblioteca via **pip**:
 ```bash
 pip install imbalanced-learn
+``` 
 
+Também pode ser instalada com conda:
+
+```bash
+conda install -c conda-forge imbalanced-learn
+``` 
 
 ## Principais Funcionalidades
 

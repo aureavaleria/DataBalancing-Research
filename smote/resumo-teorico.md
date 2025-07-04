@@ -76,7 +76,7 @@ Em vez de simplesmente duplicar exemplos da classe minoritária, o SMOTE **cria 
 ![smote](https://github.com/user-attachments/assets/2e75e868-8e7e-49c7-a271-b3672db8e03b)
 
 
-Imagine que você tem um gráfico onde as bolinhas azuis (classe minoritária) estão agrupadas e as vermelhas (classe majoritária) são maioria. O SMOTE, em vez de só duplicar as bolinhas azuis, desenha novas bolinhas entre as existentes, **criando exemplos intermediários** para “preencher” a região minoritária.
+As bolinhas vermelhas (classe minoritária) estão agrupadas e as azul (classe majoritária) são maioria. O SMOTE, em vez de só duplicar as bolinhas azuis, desenha novas bolinhas entre as existentes, **criando exemplos intermediários** para “preencher” a região minoritária.
 
 ---
 

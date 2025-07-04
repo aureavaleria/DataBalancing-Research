@@ -9,7 +9,7 @@ Em vez de simplesmente duplicar exemplos da classe minoritária, o SMOTE **cria 
 ---
 
 ## Como o SMOTE funciona?
-<img src="![processo smote](https://github.com/user-attachments/assets/3a1ecb9a-a424-4fb4-81c0-99eb529c2d3c)"  width="400"/>
+<img src= "https://github.com/user-attachments/assets/3a1ecb9a-a424-4fb4-81c0-99eb529c2d3c"  width="400"/>
 
 
 4. **Repetição do processo:**  

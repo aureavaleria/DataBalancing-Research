@@ -9,21 +9,8 @@ Em vez de simplesmente duplicar exemplos da classe minoritária, o SMOTE **cria 
 ---
 
 ## Como o SMOTE funciona?
+![processo smote](https://github.com/user-attachments/assets/3a1ecb9a-a424-4fb4-81c0-99eb529c2d3c)
 
-1. **Identificação dos exemplos minoritários:**  
-   O algoritmo foca nos exemplos da classe minoritária.
-
-2. **Busca dos vizinhos mais próximos:**  
-   Para cada exemplo da classe minoritária, identifica-se seus `k` vizinhos mais próximos (por padrão, k=5).
-
-3. **Geração dos exemplos sintéticos:**  
-   Para cada exemplo minoritário selecionado:
-   - Escolhe-se aleatoriamente um de seus vizinhos minoritários.
-   - Cria-se um novo exemplo sintético em um ponto entre o exemplo original e seu vizinho, usando interpolação linear.
-   
-   A fórmula para o novo exemplo é:  
-   `novo_exemplo = exemplo_original + gap * (vizinho - exemplo_original)`  
-   Onde `gap` é um número aleatório entre 0 e 1.
 
 4. **Repetição do processo:**  
    Esse procedimento é repetido até que o número desejado de exemplos sintéticos seja criado, equilibrando assim a quantidade de exemplos entre as classes.

@@ -1,7 +1,4 @@
 # Estudo detalhado da classe BaseSMOTE (imbalanced-learn)
-
-Abaixo está a implementação da classe `BaseSMOTE`, base de todas as variantes SMOTE da biblioteca imbalanced-learn, **repleta de comentários explicativos** para você entender cada parte e poder apresentar/dar aula sobre o algoritmo.
-
 ---
 
 ```python
